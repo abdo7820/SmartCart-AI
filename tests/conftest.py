@@ -212,6 +212,7 @@ def client(tmp_path_factory):
 
     config.DATABASE_PATH = db_path
     config.APP_DATABASE_PATH = work / "app.db"
+    config.MONITORING_DB_PATH = work / "monitoring.db"
     config.RATE_LIMIT_ENABLED = False
 
     pg_url = os.environ.get("TEST_PG_URL")

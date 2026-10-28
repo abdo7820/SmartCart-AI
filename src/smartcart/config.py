@@ -46,3 +46,14 @@ LLM_API_KEY = os.environ.get("LLM_API_KEY")
 LLM_MODEL = os.environ.get("LLM_MODEL", "")
 LLM_BASE_URL = os.environ.get("LLM_BASE_URL")
 LLM_TIMEOUT_S = float(os.environ.get("LLM_TIMEOUT_S", "15"))
+
+# Local-first monitoring. These values control resource/data/model alerts only;
+# no HTTP request telemetry is collected.
+MONITORING_ENABLED = os.environ.get("MONITORING_ENABLED", "true").lower() == "true"
+MONITORING_DB_PATH = Path(os.environ.get("MONITORING_DB_PATH", MODELS_DIR / "monitoring.db"))
+MONITORING_WINDOW_HOURS = int(os.environ.get("MONITORING_WINDOW_HOURS", "24"))
+MONITOR_CPU_WARN = float(os.environ.get("MONITOR_CPU_WARN", "85"))
+MONITOR_MEMORY_WARN = float(os.environ.get("MONITOR_MEMORY_WARN", "85"))
+MONITOR_DISK_WARN = float(os.environ.get("MONITOR_DISK_WARN", "90"))
+MONITOR_FAILURE_WARN = int(os.environ.get("MONITOR_FAILURE_WARN", "3"))
+MONITOR_DRIFT_WARN = float(os.environ.get("MONITOR_DRIFT_WARN", "0.20"))

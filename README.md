@@ -147,3 +147,24 @@ docker compose up --build
 ```
 API on :8000, web on :3000, MLflow UI on :5000 (reads `models/mlflow.db`).
 Create the first admin: `ADMIN_EMAIL=you@example.com ADMIN_PASSWORD=... docker compose --profile init run --rm admin`. Change the database password in `docker-compose.yml` before exposing it.
+# Local monitoring
+
+SmartCart includes a local-first monitoring store at `models/monitoring.db`. It records CPU, memory, and disk snapshots; inference counts, duration, failures, model versions, and non-identifying prediction distributions; and reference/current data-quality comparisons. It does not collect HTTP request counts, latency, HTTP error rates, cookies, tokens, or raw customer records.
+
+The admin view is available at `http://localhost:5173/admin/monitoring` after signing in as an administrator. The protected summary endpoint is `GET /admin/monitoring`.
+
+Windows PowerShell examples:
+
+```powershell
+$env:PYTHONPATH = "src"
+python scripts\run_monitor.py --once
+python scripts\run_monitor.py --interval 60
+# Compare the existing pre-serving database snapshot with the current catalog.
+# This reads real SQLite tables; it does not create synthetic events or labels.
+python scripts\monitor_data.py `
+  --reference-db data\db\ecommerce.db.before_serving_tables_20261028.bak `
+  --current-db data\db\ecommerce.db `
+  --table products --name catalog_products
+```
+
+The command above is a reproducible comparison of the repository’s existing SQLite snapshots. For a true production reference/current comparison, provide two snapshots of the same table and schema using the same `--reference-db`, `--current-db`, and `--table` options. The report is stored in `models/monitoring.db`; a `warning` exit code means schema or drift thresholds were exceeded, while `ok` and `unavailable` exit successfully. Existing MLflow tracking remains unchanged and no duplicate MLflow runs are created. Configure thresholds in `.env` using the `MONITOR_*` settings in `.env.example`. If CPU or memory are unavailable, install the declared dependency with `.\.venv_compat\Scripts\python.exe -m pip install -r requirements.txt`. Stop the continuous monitor with `Ctrl+C`.

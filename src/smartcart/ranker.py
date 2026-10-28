@@ -1,4 +1,5 @@
 import json
+import time
 
 import joblib
 import numpy as np
@@ -32,8 +33,9 @@ def _rank_top(frame, n):
 
 
 class RankerService:
-    def __init__(self, tables, item_cat, as_of, models_dir=None):
+    def __init__(self, tables, item_cat, as_of, models_dir=None, monitor=None):
         models_dir = models_dir or config.MODELS_DIR
+        self.monitor = monitor
         self.cfg = json.loads((models_dir / "recommendation_config.json").read_text())
         self.models = {}
         for task in ("purchase", "discovery"):
@@ -57,12 +59,12 @@ class RankerService:
         self.as_of = int(as_of)
 
     @classmethod
-    def from_db(cls, con, models_dir=None):
+    def from_db(cls, con, models_dir=None, monitor=None):
         tables = {t: db.frame(con, f"SELECT * FROM {t}") for t in TABLES}
         cats = db.frame(con, "SELECT item_id, raw_category_id FROM products WHERE raw_category_id IS NOT NULL")
         item_cat = pd.Series(cats["raw_category_id"].to_numpy("int64"), index=cats["item_id"].to_numpy("int64"))
         as_of = int(con.execute("SELECT value FROM rk_meta WHERE key = 'as_of_ms'").fetchone()["value"])
-        return cls(tables, item_cat, as_of, models_dir)
+        return cls(tables, item_cat, as_of, models_dir, monitor)
 
     def features_for(self, task):
         return list(self.cfg[task]["features"])
@@ -180,6 +182,23 @@ class RankerService:
         return pool.drop(columns=["cat", "last_ts"])
 
     def rank(self, hist, task, k=10, session_id=None, cut_events=None):
+        started = time.perf_counter()
+        try:
+            result = self._rank(hist, task, k, session_id, cut_events)
+            name = self.models[task][0]
+            pool = result[0] if isinstance(result, tuple) else result
+            scores = pool["model_score"] if len(pool) and "model_score" in pool else []
+            summary = {"task": task, "items": int(len(pool)), "score_mean": float(scores.mean()) if len(pool) else None}
+            if self.monitor:
+                self.monitor.record_prediction(f"ranker_{task}", name, (time.perf_counter() - started) * 1000, True, summary)
+            return result
+        except Exception as exc:
+            if self.monitor:
+                name = self.models.get(task, (task,))[0]
+                self.monitor.record_prediction(f"ranker_{task}", name, (time.perf_counter() - started) * 1000, False, error_code=type(exc).__name__)
+            raise
+
+    def _rank(self, hist, task, k=10, session_id=None, cut_events=None):
         c = self.context(hist, session_id, cut_events) if len(hist) else None
         c = c if c is not None else self._cold_context()
         pool = self.pool(c, self.sources(c))

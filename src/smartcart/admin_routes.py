@@ -8,6 +8,7 @@ from pydantic import BaseModel, ConfigDict, Field
 from . import accounts, config, db
 from .appdb import now_ms
 from .deps import admin_user
+from .monitoring import system as monitor_system
 from .state import state
 
 router = APIRouter(prefix="/admin", tags=["admin"])
@@ -100,6 +101,7 @@ def action_center(days: int = Query(30, ge=1, le=90), acc: dict = Depends(admin_
         "recommendation_requests": adb.scalar("SELECT COUNT(*) FROM recommendation_requests"),
         "recommendation_requests_period": adb.scalar("SELECT COUNT(*) FROM recommendation_requests WHERE ts >= ?", (start,)),
     }
+
     last_ts = int(con.execute("SELECT MAX(ts) AS m FROM events").fetchone()["m"])
     last_day = last_ts // DAY_MS
     first_day = last_day - days + 1
@@ -159,6 +161,36 @@ def action_center(days: int = Query(30, ge=1, le=90), acc: dict = Depends(admin_
         "observability": {"auth_failures": {"available": False, "reason": "Authentication failures are process-log events, not persisted in the application database."},
                            "rate_limits": {"available": False, "reason": "Rate-limit events are process-local and not persisted."}},
     }
+
+
+@router.get("/monitoring")
+def monitoring(acc: dict = Depends(admin_user)):
+    """Admin-only local model, data, and host monitoring summary.
+
+    This endpoint intentionally contains no HTTP request counters, latency,
+    status-rate, or API traffic metrics.
+    """
+    store = state.get("monitor")
+    current = monitor_system.snapshot()
+    if store:
+        store.record_system(current)
+        since = now_ms() - config.MONITORING_WINDOW_HOURS * 3_600_000
+        models = store.model_summary(since)
+        drift = store.latest_drift()
+    else:
+        models, drift = [], None
+    alerts = monitor_system.alerts(current)
+    if current.get("dependency_warning"):
+        alerts.append({"severity": "warning", "title": "System metrics partially unavailable", "detail": current["dependency_warning"], "metric": "system_dependency"})
+    for model in models:
+        if model["failures"] >= config.MONITOR_FAILURE_WARN:
+            alerts.append({"severity": "warning", "title": f"{model['model_name']} inference failures", "detail": f"{model['failures']} failures in the configured monitoring window.", "metric": "model_failures"})
+    if drift and drift.get("status") == "warning":
+        alerts.append({"severity": "warning", "title": "Data drift detected", "detail": f"{len(drift.get('drifted_columns', []))} feature columns exceeded the drift threshold.", "metric": "drift"})
+    return {"monitoring_enabled": bool(store), "window_hours": config.MONITORING_WINDOW_HOURS, "system": current,
+            "models": models, "latest_drift": drift, "alerts": alerts,
+            "scope": ["CPU, memory, and disk snapshots", "model inference counts, duration, failures, and distributions", "reference/current data quality and drift"],
+            "excluded": ["HTTP request counts", "HTTP latency", "HTTP error rates", "raw customer records"]}
 
 
 @router.get("/overview")

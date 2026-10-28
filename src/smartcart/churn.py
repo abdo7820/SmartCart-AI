@@ -1,6 +1,7 @@
 import joblib
 import numpy as np
 import pandas as pd
+import time
 
 from . import config, db
 
@@ -57,8 +58,9 @@ def build_features(events, cutoff):
 
 
 class ChurnService:
-    def __init__(self, models_dir=None):
+    def __init__(self, models_dir=None, monitor=None):
         models_dir = models_dir or config.MODELS_DIR
+        self.monitor = monitor
         bundle = joblib.load(models_dir / "churn_all_models_bundle.joblib")
         self.name = bundle["selected_model_name"]
         self.calibrated = bundle["selected_calibrated_model"]
@@ -81,6 +83,19 @@ class ChurnService:
         return None
 
     def score(self, events, cutoff, top_k=3):
+        started = time.perf_counter()
+        try:
+            result = self._score(events, cutoff, top_k)
+            summary = {"tier_counts": {tier: sum(1 for item in result if item["tier"] == tier) for tier in ("High", "Medium", "Low")}}
+            if self.monitor:
+                self.monitor.record_prediction(self.name, self.name, (time.perf_counter() - started) * 1000, True, summary)
+            return result
+        except Exception as exc:
+            if self.monitor:
+                self.monitor.record_prediction(self.name, self.name, (time.perf_counter() - started) * 1000, False, error_code=type(exc).__name__)
+            raise
+
+    def _score(self, events, cutoff, top_k=3):
         feats = build_features(events, cutoff)
         if feats.empty:
             return []

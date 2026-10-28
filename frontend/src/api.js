@@ -2,8 +2,14 @@
 // `127.0.0.1` are different cookie sites when SameSite=Lax is enabled.
 const pageHost = typeof window !== "undefined" ? window.location.hostname : "localhost";
 const defaultApiHost = pageHost === "127.0.0.1" ? "127.0.0.1" : "localhost";
-const BASE = import.meta.env.VITE_API_URL || `http://${defaultApiHost}:8000`;
+// VITE_API_URL is the backend origin (for example http://127.0.0.1:8001).
+// Tolerate an accidentally supplied /admin suffix so admin paths are not
+// duplicated, while keeping every endpoint path explicit at the call site.
+const configuredBase = import.meta.env.VITE_API_URL || `http://${defaultApiHost}:8001`;
+const BASE = configuredBase.replace(/\/+$/, "").replace(/\/admin$/i, "");
 let csrf = null;
+
+export const ADMIN_MONITORING_PATH = "/admin/monitoring";
 
 // Diagnostics are intentionally metadata-only. Never log request bodies,
 // cookies, CSRF values, authorization headers, or response tokens.

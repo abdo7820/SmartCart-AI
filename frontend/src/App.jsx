@@ -17,6 +17,7 @@ import AdminChurn from "./pages/admin/Churn.jsx";
 import AdminModels from "./pages/admin/Models.jsx";
 import AdminCustomer from "./pages/admin/Customer.jsx";
 import AdminAudit from "./pages/admin/Audit.jsx";
+import AdminMonitoring from "./pages/admin/Monitoring.jsx";
 
 const Logo = ({ sub }) => <span className="logo"><i>S</i><span>SmartCart AI<small>{sub}</small></span></span>;
 
@@ -73,6 +74,7 @@ const ADMIN_NAV = [
   ["/admin/models", "Models", "cpu"],
   ["/admin/customer", "Customer lookup", "lookup"],
   ["/admin/audit", "Audit log", "list"],
+  ["/admin/monitoring", "Monitoring", "activity"],
   ["/products", "View shop", "box"],
 ];
 
@@ -123,6 +125,7 @@ function Shell() {
       <Route path="/admin/customer" element={<RequireAuth admin><AdminCustomer /></RequireAuth>} />
       <Route path="/admin/customer/:id" element={<RequireAuth admin><AdminCustomer /></RequireAuth>} />
       <Route path="/admin/audit" element={<RequireAuth admin><AdminAudit /></RequireAuth>} />
+      <Route path="/admin/monitoring" element={<RequireAuth admin><AdminMonitoring /></RequireAuth>} />
       <Route path="/customer/*" element={<Navigate to="/admin/customer" replace />} />
       <Route path="/churn" element={<Navigate to="/admin/churn" replace />} />
       <Route path="*" element={<p className="page">Page not found.</p>} />

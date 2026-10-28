@@ -9,13 +9,15 @@ from . import admin_routes, appdb, auth_routes, chat_routes, config, db, me_rout
 from .chat import llm as chat_llm, service as chat_service
 from .deps import admin_user
 from .churn import ChurnService
+from .monitoring.store import MonitoringStore
 from .state import state
 
 @asynccontextmanager
 async def lifespan(app):
+    state["monitor"] = MonitoringStore(config.MONITORING_DB_PATH) if config.MONITORING_ENABLED else None
     state["con"] = db.connect()
-    state["churn"] = ChurnService()
-    state["ranker"] = ranker.RankerService.from_db(state["con"]) if ranker.available(state["con"]) else None
+    state["churn"] = ChurnService(monitor=state["monitor"])
+    state["ranker"] = ranker.RankerService.from_db(state["con"], monitor=state["monitor"]) if ranker.available(state["con"]) else None
     state["cutoff"] = db.as_of_ms(state["con"])
     state["info"] = db.db_info(state["con"])
     state["adb"] = appdb.open_app_db()
@@ -24,6 +26,8 @@ async def lifespan(app):
     yield
     state["con"].close()
     state["adb"].close()
+    if state.get("monitor"):
+        state["monitor"].close()
 
 
 app = FastAPI(title="SmartCart AI", version="0.1.0", lifespan=lifespan)
