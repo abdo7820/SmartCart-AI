@@ -1,34 +1,24 @@
-# Local databases and backups
+# Virtual environments
+.venv/
+.venv_compat/
+venv/
+env/
+
+# Datasets and databases
+data/
 *.db
-*.db-*
-*.sqlite
-*.sqlite3
+*.db-shm
+*.db-wal
 *.bak
 
-# MLflow artifacts and tracking
-mlruns/
-models/mlruns/
-
-# Model binaries - keep locally
-*.joblib
-*.pkl
-*.pickle
-*.skops
-*.pt
-*.pth
-*.keras
-*.h5
-
-# Generated notebook outputs
-.ipynb_checkpoints/
-# Local environment secrets
-/.env
-.env
-
-.venv_compat/
-
-frontend/NUL.css
-
+# Python cache
 __pycache__/
-
 *.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# Generated files
+frontend/NUL.css

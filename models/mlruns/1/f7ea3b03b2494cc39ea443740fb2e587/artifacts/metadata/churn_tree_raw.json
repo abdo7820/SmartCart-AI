@@ -1,0 +1,39 @@
+{
+  "model_key": "churn_tree_raw",
+  "task": "churn",
+  "model_kind": "raw_classifier",
+  "file": "churn_tree_raw.joblib",
+  "created_utc": "2026-10-27T07:02:27.512216+00:00",
+  "python": "3.13.15",
+  "scikit_learn": "1.6.1",
+  "params": {
+    "max_depth": 6,
+    "min_samples_leaf": 50
+  },
+  "features": [
+    "n_events",
+    "n_items",
+    "n_views",
+    "n_carts",
+    "n_purchases",
+    "n_items_bought",
+    "n_orders",
+    "ev_last7",
+    "ev_last30",
+    "purchases_last30",
+    "carts_last30",
+    "active_days",
+    "n_sessions",
+    "events_per_session",
+    "days_since_last_event",
+    "tenure_days",
+    "days_since_last_purchase",
+    "days_first_to_last_purchase",
+    "recent_share",
+    "trend_7_vs_30",
+    "view_to_purchase",
+    "cart_rate",
+    "purchase_rate"
+  ],
+  "definition": "customer = bought before the cut-off; churn = 1 means: no event at all (stopped visiting) in the 30 days after the cut-off"
+}
