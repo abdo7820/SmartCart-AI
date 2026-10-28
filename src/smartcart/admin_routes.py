@@ -103,7 +103,19 @@ def action_center(days: int = Query(30, ge=1, le=90), acc: dict = Depends(admin_
     last_ts = int(con.execute("SELECT MAX(ts) AS m FROM events").fetchone()["m"])
     last_day = last_ts // DAY_MS
     first_day = last_day - days + 1
-    rows = db.query(con, "SELECT ts / ? AS d, event_type, COUNT(*) AS n FROM events WHERE ts >= ? GROUP BY ts / ?, event_type", (DAY_MS, first_day * DAY_MS, DAY_MS))
+    rows = db.query(
+        con,
+        """
+        SELECT d, event_type, COUNT(*) AS n
+        FROM (
+            SELECT ts / ? AS d, event_type
+            FROM events
+            WHERE ts >= ?
+        ) AS daily_events
+        GROUP BY d, event_type
+        """,
+        (DAY_MS, first_day * DAY_MS),
+    )
     by_day = {}
     for row in rows:
         by_day.setdefault(int(row["d"]), {})[row["event_type"]] = int(row["n"])
@@ -250,7 +262,19 @@ def dataset_activity(days: int = Query(30, ge=7, le=90), acc: dict = Depends(adm
     last = int(con.execute("SELECT MAX(ts) AS m FROM events").fetchone()["m"])
     last_day = last // DAY_MS
     first_day = last_day - days + 1
-    rows = db.query(con, "SELECT ts / ? AS d, event_type, COUNT(*) AS n FROM events WHERE ts >= ? GROUP BY ts / ?, event_type", (DAY_MS, first_day * DAY_MS, DAY_MS))
+    rows = db.query(
+        con,
+        """
+        SELECT d, event_type, COUNT(*) AS n
+        FROM (
+            SELECT ts / ? AS d, event_type
+            FROM events
+            WHERE ts >= ?
+        ) AS daily_events
+        GROUP BY d, event_type
+        """,
+        (DAY_MS, first_day * DAY_MS),
+    )
     by = {}
     for r in rows:
         by.setdefault(int(r["d"]), {})[r["event_type"]] = int(r["n"])
