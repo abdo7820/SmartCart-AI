@@ -1,0 +1,1747 @@
+{
+  "info": {
+    "name": "SmartCart AI API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Run with the Collection Runner. Change visitor_id to a customer who has bought for a scored churn result. item_id and visitor_id come from the real Retailrocket ids."
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    },
+    {
+      "key": "item_id",
+      "value": "461686"
+    },
+    {
+      "key": "visitor_id",
+      "value": "109717"
+    },
+    {
+      "key": "csrf",
+      "value": ""
+    },
+    {
+      "key": "admin_email",
+      "value": "admin@example.com"
+    },
+    {
+      "key": "admin_password",
+      "value": ""
+    },
+    {
+      "key": "user_email",
+      "value": "postman.user@example.com"
+    },
+    {
+      "key": "user_password",
+      "value": "Violet-Garden-2026"
+    }
+  ],
+  "item": [
+    {
+      "name": "Auth - login as admin (set admin_email and admin_password variables first)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/login",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "login"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"{{admin_email}}\",\n  \"password\": \"{{admin_password}}\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.collectionVariables.set(\"csrf\", j.csrf_token);",
+              "pm.test(\"admin redirect\", () => pm.expect(j.redirect).to.eql(\"/admin\"));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - me",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/auth/me",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "me"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.collectionVariables.set(\"csrf\", j.csrf_token);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - register rejects role field",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/register",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "register"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"role.test@example.com\",\n  \"full_name\": \"Role Test\",\n  \"password\": \"Violet-Garden-2026\",\n  \"role\": \"admin\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 422\", () => pm.response.to.have.status(422));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - register weak password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/register",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "register"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"weak.test@example.com\",\n  \"full_name\": \"Weak Test\",\n  \"password\": \"short\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 422\", () => pm.response.to.have.status(422));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - login wrong password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/login",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "login"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"nobody@example.com\",\n  \"password\": \"wrong-password-1\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 401\", () => pm.response.to.have.status(401));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - overview",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/overview",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "overview"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/users?limit=25",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "25"
+            }
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - churn summary",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/churn",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "churn"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - models",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/models",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "models"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "health"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin - audit",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/audit?limit=50",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "audit"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "50"
+            }
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Legacy admin endpoints below (run while logged in as admin)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Health",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"status ok\", () => pm.expect(j.status).to.eql(\"ok\"));",
+              "pm.test(\"churn model loaded\", () => pm.expect(j.churn_model).to.be.a(\"string\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Models",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"18 models\", () => pm.expect(j.models.length).to.eql(18));",
+              "pm.test(\"threshold\", () => pm.expect(j.churn_threshold).to.eql(0.835));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/models",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "models"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Categories",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"has departments\", () => pm.expect(pm.response.json().length).to.be.above(0));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/categories",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "categories"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Products - search",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"has items\", () => pm.expect(j.items.length).to.be.above(0));",
+              "pm.test(\"name matches\", () => j.items.forEach(p => pm.expect(p.name.toLowerCase()).to.include(\"speaker\")));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products?q=speaker&limit=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products"
+          ],
+          "query": [
+            {
+              "key": "q",
+              "value": "speaker"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Products - filter and sort by price",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "const prices = j.items.map(p => p.price);",
+              "pm.test(\"sorted ascending\", () => pm.expect(prices).to.eql([...prices].sort((a,b)=>a-b)));",
+              "pm.test(\"department filter\", () => j.items.forEach(p => pm.expect(p.department).to.eql(\"Electronics\")));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products?department=Electronics&in_stock=true&sort=price_asc&limit=10",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products"
+          ],
+          "query": [
+            {
+              "key": "department",
+              "value": "Electronics"
+            },
+            {
+              "key": "in_stock",
+              "value": "true"
+            },
+            {
+              "key": "sort",
+              "value": "price_asc"
+            },
+            {
+              "key": "limit",
+              "value": "10"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Products - invalid sort",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 422\", () => pm.response.to.have.status(422));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products?sort=bad",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products"
+          ],
+          "query": [
+            {
+              "key": "sort",
+              "value": "bad"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Product by id",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"right item\", () => pm.expect(j.item_id).to.eql(parseInt(pm.collectionVariables.get(\"item_id\"))));",
+              "pm.test(\"price positive\", () => pm.expect(j.price).to.be.above(0));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products/{{item_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products",
+            "{{item_id}}"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Product not found",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 404\", () => pm.response.to.have.status(404));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products/999999999",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products",
+            "999999999"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Similar products",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"is a list\", () => pm.expect(pm.response.json().items).to.be.an(\"array\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/products/{{item_id}}/similar?k=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "products",
+            "{{item_id}}",
+            "similar"
+          ],
+          "query": [
+            {
+              "key": "k",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Customer",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"has customer and features\", () => { const j = pm.response.json(); pm.expect(j.customer.visitor_id).to.eql(parseInt(pm.collectionVariables.get(\"visitor_id\"))); pm.expect(j.features).to.be.an(\"object\"); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Customer not found",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 404\", () => pm.response.to.have.status(404));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/999999999",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "999999999"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Recommendations - customer",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"mode is personalised or cold_start\", () => pm.expect([\"personalised\",\"cold_start\"]).to.include(j.mode));",
+              "pm.test(\"at most k items\", () => pm.expect(j.items.length).to.be.at.most(5));",
+              "pm.test(\"no duplicates\", () => { const ids = j.items.map(i => i.item_id); pm.expect(new Set(ids).size).to.eql(ids.length); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/recommendations?k=5&in_stock_only=true",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "k",
+              "value": "5"
+            },
+            {
+              "key": "in_stock_only",
+              "value": "true"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recommendations - discovery",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"task is discovery\", () => pm.expect(j.task).to.eql(\"discovery\"));",
+              "pm.test(\"scores sorted\", () => { const s = j.items.map(i => i.score); pm.expect(s).to.eql([...s].sort((a,b)=>b-a)); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/recommendations?task=discovery&k=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "task",
+              "value": "discovery"
+            },
+            {
+              "key": "k",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recommendations - purchase",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"task is purchase\", () => pm.expect(pm.response.json().task).to.eql(\"purchase\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/recommendations?task=purchase&k=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "task",
+              "value": "purchase"
+            },
+            {
+              "key": "k",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recommendations - hybrid",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "pm.test(\"task is hybrid\", () => pm.expect(pm.response.json().task).to.eql(\"hybrid\"));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/recommendations?task=hybrid&k=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "task",
+              "value": "hybrid"
+            },
+            {
+              "key": "k",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recommendations - invalid task",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 422\", () => pm.response.to.have.status(422));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/recommendations?task=bad",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "task",
+              "value": "bad"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Recommendations - cold start",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"cold start\", () => pm.expect(j.mode).to.eql(\"cold_start\"));",
+              "pm.test(\"has items\", () => pm.expect(j.items.length).to.be.above(0));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/999999999/recommendations?k=5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "999999999",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "k",
+              "value": "5"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Churn - customer",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"scored or explained\", () => pm.expect(j).to.have.property(\"scored\"));",
+              "if (j.scored) { pm.test(\"probability in [0,1]\", () => pm.expect(j.churn_probability).to.be.within(0,1)); pm.test(\"tier valid\", () => pm.expect([\"High\",\"Medium\",\"Low\"]).to.include(j.tier)); pm.test(\"3 reasons\", () => pm.expect(j.reasons.length).to.eql(3)); }"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}/churn",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}",
+            "churn"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Churn - unknown customer",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 404\", () => pm.response.to.have.status(404));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/999999999/churn",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "999999999",
+            "churn"
+          ],
+          "query": []
+        }
+      }
+    },
+    {
+      "name": "Churn - at risk (High)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "const p = j.items.map(i => i.churn_probability);",
+              "pm.test(\"sorted by risk, highest first\", () => pm.expect(p).to.eql([...p].sort((a,b)=>b-a)));",
+              "pm.test(\"all High\", () => j.items.forEach(i => pm.expect(i.tier).to.eql(\"High\")));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/churn/at-risk?tier=High&limit=5&candidates=2000",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "churn",
+            "at-risk"
+          ],
+          "query": [
+            {
+              "key": "tier",
+              "value": "High"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            },
+            {
+              "key": "candidates",
+              "value": "2000"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Churn - at risk (Medium)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/churn/at-risk?tier=Medium&limit=5&candidates=2000",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "churn",
+            "at-risk"
+          ],
+          "query": [
+            {
+              "key": "tier",
+              "value": "Medium"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            },
+            {
+              "key": "candidates",
+              "value": "2000"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Auth - logout admin",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/logout",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "logout"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Without session - /me is 401",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/me",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 401\", () => pm.response.to.have.status(401));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Without session - /admin/overview is 401",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/overview",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "overview"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 401\", () => pm.response.to.have.status(401));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - register new user (auto login)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/register",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "register"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"{{user_email}}\",\n  \"full_name\": \"Postman User\",\n  \"password\": \"{{user_password}}\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 201\", () => pm.response.to.have.status(201));",
+              "const j = pm.response.json();",
+              "pm.collectionVariables.set(\"csrf\", j.csrf_token);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "As user - /admin/overview is 403",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/overview",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "admin",
+            "overview"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 403\", () => pm.response.to.have.status(403));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "As user - /customers/{{visitor_id}} is 403",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/customers/{{visitor_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "customers",
+            "{{visitor_id}}"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 403\", () => pm.response.to.have.status(403));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/me",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - preferences",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/me/preferences",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me",
+            "preferences"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - set preferences",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/me/preferences",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me",
+            "preferences"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"departments\": []\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - record view",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/me/events",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me",
+            "events"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"event_type\": \"view\",\n  \"item_id\": \"{{item_id}}\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 201\", () => pm.response.to.have.status(201));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - record addtocart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/me/events",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me",
+            "events"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"event_type\": \"addtocart\",\n  \"item_id\": \"{{item_id}}\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 201\", () => pm.response.to.have.status(201));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Me - recommendations",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/me/recommendations?k=12",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "me",
+            "recommendations"
+          ],
+          "query": [
+            {
+              "key": "k",
+              "value": "12"
+            }
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));",
+              "const j = pm.response.json();",
+              "pm.test(\"sections are labelled\", () => pm.expect(j.source).to.be.oneOf([\"history_based\",\"preference_based\",\"popularity_based\"]));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat - popular",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/chat",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "chat"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"show me popular products\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat - empty message",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/chat",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "chat"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"\"\n}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 422\", () => pm.response.to.have.status(422));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat - conversations",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/chat/conversations",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "chat",
+            "conversations"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Chat - delete all",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/chat/conversations",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "chat",
+            "conversations"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 204\", () => pm.response.to.have.status(204));"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth - logout user",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/auth/logout",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "auth",
+            "logout"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{}"
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"status 200\", () => pm.response.to.have.status(200));"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "if (pm.request.method !== 'GET') {",
+          "  const t = pm.collectionVariables.get('csrf');",
+          "  if (t) pm.request.headers.upsert({key: 'X-CSRF-Token', value: t});",
+          "  pm.request.headers.upsert({key: 'Origin', value: 'http://localhost:5173'});",
+          "}"
+        ]
+      }
+    }
+  ]
+}

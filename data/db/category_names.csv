@@ -1,0 +1,1670 @@
+categoryid,root_categoryid,department,noun,category_name,name_is_synthetic,data_origin
+0,1482,Electronics,Headphones,Classic Headphones,True,retailrocket
+1,1482,Electronics,Charger,Classic Charger,True,retailrocket
+2,653,Electronics,Speaker,Classic Speaker,True,retailrocket
+3,653,Electronics,Camera,Classic Camera,True,retailrocket
+4,1532,Pet Supplies,Dog Leash,Classic Dog Leash,True,retailrocket
+5,140,Fashion,Jacket,Classic Jacket,True,retailrocket
+6,1224,Sports & Outdoors,Yoga Mat,Classic Yoga Mat,True,retailrocket
+7,250,Beauty & Health,Face Cream,Classic Face Cream,True,retailrocket
+8,1579,Beauty & Health,Shampoo,Classic Shampoo,True,retailrocket
+9,653,Electronics,Keyboard,Classic Keyboard,True,retailrocket
+10,755,Electronics,Monitor,Classic Monitor,True,retailrocket
+11,755,Electronics,Tablet,Classic Tablet,True,retailrocket
+12,653,Electronics,Smartwatch,Classic Smartwatch,True,retailrocket
+13,791,Home & Kitchen,Blender,Classic Blender,True,retailrocket
+14,1600,Toys & Games,Puzzle,Classic Puzzle,True,retailrocket
+15,1057,Books & Media,Novel,Classic Novel,True,retailrocket
+16,140,Fashion,Sneakers,Classic Sneakers,True,retailrocket
+17,653,Electronics,Headphones,Premium Headphones,True,retailrocket
+18,1224,Sports & Outdoors,Dumbbells,Classic Dumbbells,True,retailrocket
+19,659,Garden & Tools,Drill,Classic Drill,True,retailrocket
+20,1532,Pet Supplies,Cat Toy,Classic Cat Toy,True,retailrocket
+21,653,Electronics,Charger,Premium Charger,True,retailrocket
+22,1579,Beauty & Health,Perfume,Classic Perfume,True,retailrocket
+23,1600,Toys & Games,Board Game,Classic Board Game,True,retailrocket
+24,140,Fashion,Backpack,Classic Backpack,True,retailrocket
+25,1490,Automotive,Car Charger,Classic Car Charger,True,retailrocket
+26,1224,Sports & Outdoors,Tent,Classic Tent,True,retailrocket
+27,395,Home & Kitchen,Lamp,Classic Lamp,True,retailrocket
+28,653,Electronics,Speaker,Premium Speaker,True,retailrocket
+29,1698,Beauty & Health,Hair Dryer,Classic Hair Dryer,True,retailrocket
+30,431,Sports & Outdoors,Bicycle Helmet,Classic Bicycle Helmet,True,retailrocket
+31,1579,Beauty & Health,Vitamins,Classic Vitamins,True,retailrocket
+32,250,Beauty & Health,Lip Balm,Classic Lip Balm,True,retailrocket
+33,1224,Sports & Outdoors,Water Bottle,Classic Water Bottle,True,retailrocket
+34,140,Fashion,Dress,Classic Dress,True,retailrocket
+35,1532,Pet Supplies,Pet Bed,Classic Pet Bed,True,retailrocket
+36,395,Home & Kitchen,Cookware Set,Classic Cookware Set,True,retailrocket
+37,653,Electronics,Camera,Premium Camera,True,retailrocket
+38,1394,Books & Media,Cookbook,Classic Cookbook,True,retailrocket
+39,140,Fashion,Watch,Classic Watch,True,retailrocket
+40,1579,Beauty & Health,Razor,Classic Razor,True,retailrocket
+41,1394,Books & Media,Notebook,Classic Notebook,True,retailrocket
+42,1224,Sports & Outdoors,Running Shoes,Classic Running Shoes,True,retailrocket
+43,653,Electronics,Keyboard,Premium Keyboard,True,retailrocket
+44,1698,Beauty & Health,Sunscreen,Classic Sunscreen,True,retailrocket
+45,1452,Toys & Games,Building Blocks,Classic Building Blocks,True,retailrocket
+46,140,Fashion,Sunglasses,Classic Sunglasses,True,retailrocket
+47,1482,Electronics,Monitor,Premium Monitor,True,retailrocket
+48,1532,Pet Supplies,Bird Feeder,Classic Bird Feeder,True,retailrocket
+49,1532,Pet Supplies,Fish Tank Filter,Classic Fish Tank Filter,True,retailrocket
+50,653,Electronics,Tablet,Premium Tablet,True,retailrocket
+51,140,Fashion,Scarf,Classic Scarf,True,retailrocket
+52,1698,Beauty & Health,Face Cream,Premium Face Cream,True,retailrocket
+53,653,Electronics,Smartwatch,Premium Smartwatch,True,retailrocket
+54,1224,Sports & Outdoors,Sleeping Bag,Classic Sleeping Bag,True,retailrocket
+55,1600,Toys & Games,Doll,Classic Doll,True,retailrocket
+56,1490,Automotive,Seat Cover,Classic Seat Cover,True,retailrocket
+57,140,Fashion,Jeans,Classic Jeans,True,retailrocket
+58,1532,Pet Supplies,Pet Bowl,Classic Pet Bowl,True,retailrocket
+59,1600,Toys & Games,Remote Car,Classic Remote Car,True,retailrocket
+60,791,Home & Kitchen,Vacuum,Classic Vacuum,True,retailrocket
+61,140,Fashion,Jacket,Premium Jacket,True,retailrocket
+62,1579,Beauty & Health,Shampoo,Premium Shampoo,True,retailrocket
+63,1579,Beauty & Health,Perfume,Premium Perfume,True,retailrocket
+64,1532,Pet Supplies,Chew Toy,Classic Chew Toy,True,retailrocket
+65,1532,Pet Supplies,Pet Carrier,Classic Pet Carrier,True,retailrocket
+66,140,Fashion,Sneakers,Premium Sneakers,True,retailrocket
+67,1600,Toys & Games,Plush Bear,Classic Plush Bear,True,retailrocket
+68,250,Beauty & Health,Hair Dryer,Premium Hair Dryer,True,retailrocket
+69,250,Beauty & Health,Vitamins,Premium Vitamins,True,retailrocket
+70,1579,Beauty & Health,Lip Balm,Premium Lip Balm,True,retailrocket
+71,1579,Beauty & Health,Razor,Premium Razor,True,retailrocket
+72,140,Fashion,Backpack,Premium Backpack,True,retailrocket
+73,653,Electronics,Headphones,Compact Headphones,True,retailrocket
+74,250,Beauty & Health,Sunscreen,Premium Sunscreen,True,retailrocket
+75,395,Home & Kitchen,Kettle,Classic Kettle,True,retailrocket
+76,1579,Beauty & Health,Face Cream,Compact Face Cream,True,retailrocket
+77,1579,Beauty & Health,Shampoo,Compact Shampoo,True,retailrocket
+78,1579,Beauty & Health,Perfume,Compact Perfume,True,retailrocket
+79,250,Beauty & Health,Hair Dryer,Compact Hair Dryer,True,retailrocket
+81,378,Sports & Outdoors,Jump Rope,Classic Jump Rope,True,retailrocket
+82,1532,Pet Supplies,Dog Leash,Premium Dog Leash,True,retailrocket
+83,395,Home & Kitchen,Pillow,Classic Pillow,True,retailrocket
+84,140,Fashion,Dress,Premium Dress,True,retailrocket
+85,791,Home & Kitchen,Curtains,Classic Curtains,True,retailrocket
+86,1532,Pet Supplies,Cat Toy,Premium Cat Toy,True,retailrocket
+87,1579,Beauty & Health,Vitamins,Compact Vitamins,True,retailrocket
+88,250,Beauty & Health,Lip Balm,Compact Lip Balm,True,retailrocket
+89,1532,Pet Supplies,Pet Bed,Premium Pet Bed,True,retailrocket
+90,395,Home & Kitchen,Toaster,Classic Toaster,True,retailrocket
+91,679,Pet Supplies,Bird Feeder,Premium Bird Feeder,True,retailrocket
+92,653,Electronics,Charger,Compact Charger,True,retailrocket
+93,803,Garden & Tools,Hammer,Classic Hammer,True,retailrocket
+94,653,Electronics,Speaker,Compact Speaker,True,retailrocket
+95,140,Fashion,Watch,Premium Watch,True,retailrocket
+96,140,Fashion,Sunglasses,Premium Sunglasses,True,retailrocket
+97,250,Beauty & Health,Razor,Compact Razor,True,retailrocket
+98,1057,Books & Media,Planner,Classic Planner,True,retailrocket
+99,140,Fashion,Scarf,Premium Scarf,True,retailrocket
+100,791,Home & Kitchen,Blender,Premium Blender,True,retailrocket
+101,653,Electronics,Camera,Compact Camera,True,retailrocket
+102,653,Electronics,Keyboard,Compact Keyboard,True,retailrocket
+103,679,Pet Supplies,Fish Tank Filter,Premium Fish Tank Filter,True,retailrocket
+104,140,Fashion,Jeans,Premium Jeans,True,retailrocket
+105,1224,Sports & Outdoors,Yoga Mat,Premium Yoga Mat,True,retailrocket
+106,1482,Electronics,Monitor,Compact Monitor,True,retailrocket
+107,1532,Pet Supplies,Pet Bowl,Premium Pet Bowl,True,retailrocket
+108,250,Beauty & Health,Sunscreen,Compact Sunscreen,True,retailrocket
+109,395,Home & Kitchen,Lamp,Premium Lamp,True,retailrocket
+110,1698,Beauty & Health,Face Cream,Deluxe Face Cream,True,retailrocket
+111,431,Sports & Outdoors,Dumbbells,Premium Dumbbells,True,retailrocket
+112,1482,Electronics,Tablet,Compact Tablet,True,retailrocket
+113,1532,Pet Supplies,Chew Toy,Premium Chew Toy,True,retailrocket
+114,1224,Sports & Outdoors,Tent,Premium Tent,True,retailrocket
+115,653,Electronics,Smartwatch,Compact Smartwatch,True,retailrocket
+116,140,Fashion,Jacket,Compact Jacket,True,retailrocket
+117,1532,Pet Supplies,Pet Carrier,Premium Pet Carrier,True,retailrocket
+118,1224,Sports & Outdoors,Bicycle Helmet,Premium Bicycle Helmet,True,retailrocket
+119,653,Electronics,Headphones,Deluxe Headphones,True,retailrocket
+120,140,Fashion,Sneakers,Compact Sneakers,True,retailrocket
+121,140,Fashion,Backpack,Compact Backpack,True,retailrocket
+122,1600,Toys & Games,Art Set,Classic Art Set,True,retailrocket
+123,1394,Books & Media,Comic Book,Classic Comic Book,True,retailrocket
+124,140,Fashion,Dress,Compact Dress,True,retailrocket
+125,1600,Toys & Games,Card Game,Classic Card Game,True,retailrocket
+126,1224,Sports & Outdoors,Water Bottle,Premium Water Bottle,True,retailrocket
+127,653,Electronics,Charger,Deluxe Charger,True,retailrocket
+128,653,Electronics,Speaker,Deluxe Speaker,True,retailrocket
+129,140,Fashion,Watch,Compact Watch,True,retailrocket
+130,1490,Automotive,Floor Mats,Classic Floor Mats,True,retailrocket
+131,140,Fashion,Sunglasses,Compact Sunglasses,True,retailrocket
+132,755,Electronics,Camera,Deluxe Camera,True,retailrocket
+133,1224,Sports & Outdoors,Running Shoes,Premium Running Shoes,True,retailrocket
+134,140,Fashion,Scarf,Compact Scarf,True,retailrocket
+135,1600,Toys & Games,Puzzle,Premium Puzzle,True,retailrocket
+136,1482,Electronics,Keyboard,Deluxe Keyboard,True,retailrocket
+137,1600,Toys & Games,Board Game,Premium Board Game,True,retailrocket
+138,1600,Toys & Games,Building Blocks,Premium Building Blocks,True,retailrocket
+139,140,Fashion,Jeans,Compact Jeans,True,retailrocket
+140,140,Fashion,Jacket,Deluxe Jacket,True,retailrocket
+141,1698,Beauty & Health,Shampoo,Deluxe Shampoo,True,retailrocket
+142,653,Electronics,Monitor,Deluxe Monitor,True,retailrocket
+143,1482,Electronics,Tablet,Deluxe Tablet,True,retailrocket
+144,395,Home & Kitchen,Cookware Set,Premium Cookware Set,True,retailrocket
+145,1490,Automotive,Dash Camera,Classic Dash Camera,True,retailrocket
+146,1698,Beauty & Health,Perfume,Deluxe Perfume,True,retailrocket
+147,1600,Toys & Games,Doll,Premium Doll,True,retailrocket
+148,653,Electronics,Smartwatch,Deluxe Smartwatch,True,retailrocket
+149,140,Fashion,Sneakers,Deluxe Sneakers,True,retailrocket
+150,431,Sports & Outdoors,Sleeping Bag,Premium Sleeping Bag,True,retailrocket
+151,1224,Sports & Outdoors,Jump Rope,Premium Jump Rope,True,retailrocket
+152,140,Fashion,Backpack,Deluxe Backpack,True,retailrocket
+153,1600,Toys & Games,Remote Car,Premium Remote Car,True,retailrocket
+154,1600,Toys & Games,Plush Bear,Premium Plush Bear,True,retailrocket
+155,791,Home & Kitchen,Vacuum,Premium Vacuum,True,retailrocket
+156,140,Fashion,Dress,Deluxe Dress,True,retailrocket
+157,140,Fashion,Watch,Deluxe Watch,True,retailrocket
+158,395,Home & Kitchen,Kettle,Premium Kettle,True,retailrocket
+159,140,Fashion,Sunglasses,Deluxe Sunglasses,True,retailrocket
+160,1482,Electronics,Headphones,Smart Headphones,True,retailrocket
+161,653,Electronics,Charger,Smart Charger,True,retailrocket
+162,1482,Electronics,Speaker,Smart Speaker,True,retailrocket
+163,653,Electronics,Camera,Smart Camera,True,retailrocket
+164,140,Fashion,Scarf,Deluxe Scarf,True,retailrocket
+165,1600,Toys & Games,Art Set,Premium Art Set,True,retailrocket
+166,431,Sports & Outdoors,Yoga Mat,Compact Yoga Mat,True,retailrocket
+167,1532,Pet Supplies,Dog Leash,Compact Dog Leash,True,retailrocket
+169,395,Home & Kitchen,Pillow,Premium Pillow,True,retailrocket
+170,1224,Sports & Outdoors,Dumbbells,Compact Dumbbells,True,retailrocket
+172,140,Fashion,Jeans,Deluxe Jeans,True,retailrocket
+173,1490,Automotive,Tire Gauge,Classic Tire Gauge,True,retailrocket
+174,395,Home & Kitchen,Curtains,Premium Curtains,True,retailrocket
+175,1532,Pet Supplies,Cat Toy,Compact Cat Toy,True,retailrocket
+176,395,Home & Kitchen,Toaster,Premium Toaster,True,retailrocket
+177,653,Electronics,Keyboard,Smart Keyboard,True,retailrocket
+178,395,Home & Kitchen,Blender,Compact Blender,True,retailrocket
+179,431,Sports & Outdoors,Tent,Compact Tent,True,retailrocket
+180,140,Fashion,Jacket,Smart Jacket,True,retailrocket
+182,140,Fashion,Sneakers,Smart Sneakers,True,retailrocket
+183,140,Fashion,Backpack,Smart Backpack,True,retailrocket
+184,431,Sports & Outdoors,Bicycle Helmet,Compact Bicycle Helmet,True,retailrocket
+185,140,Fashion,Dress,Smart Dress,True,retailrocket
+186,1579,Beauty & Health,Hair Dryer,Deluxe Hair Dryer,True,retailrocket
+187,1600,Toys & Games,Card Game,Premium Card Game,True,retailrocket
+188,395,Home & Kitchen,Lamp,Compact Lamp,True,retailrocket
+189,140,Fashion,Watch,Smart Watch,True,retailrocket
+190,755,Electronics,Monitor,Smart Monitor,True,retailrocket
+191,140,Fashion,Sunglasses,Smart Sunglasses,True,retailrocket
+192,140,Fashion,Scarf,Smart Scarf,True,retailrocket
+193,1600,Toys & Games,Puzzle,Compact Puzzle,True,retailrocket
+194,1579,Beauty & Health,Vitamins,Deluxe Vitamins,True,retailrocket
+195,395,Home & Kitchen,Cookware Set,Compact Cookware Set,True,retailrocket
+196,140,Fashion,Jeans,Smart Jeans,True,retailrocket
+197,653,Electronics,Tablet,Smart Tablet,True,retailrocket
+198,431,Sports & Outdoors,Water Bottle,Compact Water Bottle,True,retailrocket
+199,653,Electronics,Smartwatch,Smart Smartwatch,True,retailrocket
+200,1057,Books & Media,Dictionary,Classic Dictionary,True,retailrocket
+201,1579,Beauty & Health,Lip Balm,Deluxe Lip Balm,True,retailrocket
+202,679,Pet Supplies,Pet Bed,Compact Pet Bed,True,retailrocket
+203,378,Sports & Outdoors,Running Shoes,Compact Running Shoes,True,retailrocket
+204,1224,Sports & Outdoors,Sleeping Bag,Compact Sleeping Bag,True,retailrocket
+205,1482,Electronics,Headphones,Eco Headphones,True,retailrocket
+206,1532,Pet Supplies,Bird Feeder,Compact Bird Feeder,True,retailrocket
+207,1490,Automotive,Car Vacuum,Classic Car Vacuum,True,retailrocket
+208,1224,Sports & Outdoors,Jump Rope,Compact Jump Rope,True,retailrocket
+209,1532,Pet Supplies,Fish Tank Filter,Compact Fish Tank Filter,True,retailrocket
+210,140,Fashion,Jacket,Eco Jacket,True,retailrocket
+211,1579,Beauty & Health,Razor,Deluxe Razor,True,retailrocket
+212,1490,Automotive,Phone Holder,Classic Phone Holder,True,retailrocket
+213,1532,Pet Supplies,Pet Bowl,Compact Pet Bowl,True,retailrocket
+214,1394,Books & Media,Audiobook,Classic Audiobook,True,retailrocket
+215,1579,Beauty & Health,Sunscreen,Deluxe Sunscreen,True,retailrocket
+216,1600,Toys & Games,Board Game,Compact Board Game,True,retailrocket
+217,140,Fashion,Sneakers,Eco Sneakers,True,retailrocket
+218,140,Fashion,Backpack,Eco Backpack,True,retailrocket
+219,1224,Sports & Outdoors,Yoga Mat,Deluxe Yoga Mat,True,retailrocket
+220,250,Beauty & Health,Face Cream,Smart Face Cream,True,retailrocket
+221,431,Sports & Outdoors,Dumbbells,Deluxe Dumbbells,True,retailrocket
+222,395,Home & Kitchen,Vacuum,Compact Vacuum,True,retailrocket
+223,140,Fashion,Dress,Eco Dress,True,retailrocket
+224,140,Fashion,Watch,Eco Watch,True,retailrocket
+225,1482,Electronics,Charger,Eco Charger,True,retailrocket
+226,1532,Pet Supplies,Chew Toy,Compact Chew Toy,True,retailrocket
+227,791,Home & Kitchen,Kettle,Compact Kettle,True,retailrocket
+228,1482,Electronics,Speaker,Eco Speaker,True,retailrocket
+229,140,Fashion,Sunglasses,Eco Sunglasses,True,retailrocket
+230,679,Pet Supplies,Pet Carrier,Compact Pet Carrier,True,retailrocket
+231,231,Fashion,Scarf,Eco Scarf,True,retailrocket
+232,1579,Beauty & Health,Shampoo,Smart Shampoo,True,retailrocket
+233,679,Pet Supplies,Dog Leash,Deluxe Dog Leash,True,retailrocket
+234,140,Fashion,Jeans,Eco Jeans,True,retailrocket
+235,1224,Sports & Outdoors,Tent,Deluxe Tent,True,retailrocket
+236,1698,Beauty & Health,Perfume,Smart Perfume,True,retailrocket
+237,1579,Beauty & Health,Hair Dryer,Smart Hair Dryer,True,retailrocket
+238,250,Beauty & Health,Vitamins,Smart Vitamins,True,retailrocket
+239,140,Fashion,Jacket,Portable Jacket,True,retailrocket
+240,791,Home & Kitchen,Pillow,Compact Pillow,True,retailrocket
+241,395,Home & Kitchen,Curtains,Compact Curtains,True,retailrocket
+242,1482,Electronics,Camera,Eco Camera,True,retailrocket
+243,1394,Books & Media,Calendar,Classic Calendar,True,retailrocket
+244,791,Home & Kitchen,Toaster,Compact Toaster,True,retailrocket
+245,679,Pet Supplies,Cat Toy,Deluxe Cat Toy,True,retailrocket
+246,431,Sports & Outdoors,Bicycle Helmet,Deluxe Bicycle Helmet,True,retailrocket
+247,395,Home & Kitchen,Blender,Deluxe Blender,True,retailrocket
+248,653,Electronics,Keyboard,Eco Keyboard,True,retailrocket
+249,140,Fashion,Sneakers,Portable Sneakers,True,retailrocket
+250,250,Beauty & Health,Lip Balm,Smart Lip Balm,True,retailrocket
+251,1579,Beauty & Health,Razor,Smart Razor,True,retailrocket
+252,1600,Toys & Games,Building Blocks,Compact Building Blocks,True,retailrocket
+253,1490,Automotive,Wax Kit,Classic Wax Kit,True,retailrocket
+254,803,Garden & Tools,Garden Hose,Classic Garden Hose,True,retailrocket
+255,1490,Automotive,Car Charger,Premium Car Charger,True,retailrocket
+256,395,Home & Kitchen,Lamp,Deluxe Lamp,True,retailrocket
+257,653,Electronics,Monitor,Eco Monitor,True,retailrocket
+258,679,Pet Supplies,Pet Bed,Deluxe Pet Bed,True,retailrocket
+259,1579,Beauty & Health,Sunscreen,Smart Sunscreen,True,retailrocket
+260,1532,Pet Supplies,Bird Feeder,Deluxe Bird Feeder,True,retailrocket
+261,791,Home & Kitchen,Cookware Set,Deluxe Cookware Set,True,retailrocket
+262,1600,Toys & Games,Doll,Compact Doll,True,retailrocket
+263,1482,Electronics,Tablet,Eco Tablet,True,retailrocket
+264,431,Sports & Outdoors,Water Bottle,Deluxe Water Bottle,True,retailrocket
+265,1600,Toys & Games,Remote Car,Compact Remote Car,True,retailrocket
+266,140,Fashion,Backpack,Portable Backpack,True,retailrocket
+267,1224,Sports & Outdoors,Running Shoes,Deluxe Running Shoes,True,retailrocket
+268,1600,Toys & Games,Plush Bear,Compact Plush Bear,True,retailrocket
+269,1224,Sports & Outdoors,Sleeping Bag,Deluxe Sleeping Bag,True,retailrocket
+270,1482,Electronics,Smartwatch,Eco Smartwatch,True,retailrocket
+271,431,Sports & Outdoors,Jump Rope,Deluxe Jump Rope,True,retailrocket
+272,250,Beauty & Health,Face Cream,Eco Face Cream,True,retailrocket
+273,431,Sports & Outdoors,Yoga Mat,Smart Yoga Mat,True,retailrocket
+274,1482,Electronics,Headphones,Portable Headphones,True,retailrocket
+275,250,Beauty & Health,Shampoo,Eco Shampoo,True,retailrocket
+276,1600,Toys & Games,Art Set,Compact Art Set,True,retailrocket
+277,1482,Electronics,Charger,Portable Charger,True,retailrocket
+278,431,Sports & Outdoors,Dumbbells,Smart Dumbbells,True,retailrocket
+279,140,Fashion,Dress,Portable Dress,True,retailrocket
+281,679,Pet Supplies,Fish Tank Filter,Deluxe Fish Tank Filter,True,retailrocket
+282,1532,Pet Supplies,Pet Bowl,Deluxe Pet Bowl,True,retailrocket
+283,1579,Beauty & Health,Perfume,Eco Perfume,True,retailrocket
+284,431,Sports & Outdoors,Tent,Smart Tent,True,retailrocket
+285,395,Home & Kitchen,Vacuum,Deluxe Vacuum,True,retailrocket
+286,653,Electronics,Speaker,Portable Speaker,True,retailrocket
+287,1600,Toys & Games,Card Game,Compact Card Game,True,retailrocket
+288,140,Fashion,Watch,Portable Watch,True,retailrocket
+289,378,Sports & Outdoors,Bicycle Helmet,Smart Bicycle Helmet,True,retailrocket
+290,1490,Automotive,Seat Cover,Premium Seat Cover,True,retailrocket
+291,1579,Beauty & Health,Hair Dryer,Eco Hair Dryer,True,retailrocket
+292,1482,Electronics,Camera,Portable Camera,True,retailrocket
+293,1532,Pet Supplies,Chew Toy,Deluxe Chew Toy,True,retailrocket
+294,250,Beauty & Health,Vitamins,Eco Vitamins,True,retailrocket
+295,1532,Pet Supplies,Pet Carrier,Deluxe Pet Carrier,True,retailrocket
+296,1600,Toys & Games,Puzzle,Deluxe Puzzle,True,retailrocket
+297,653,Electronics,Keyboard,Portable Keyboard,True,retailrocket
+298,1579,Beauty & Health,Lip Balm,Eco Lip Balm,True,retailrocket
+299,653,Electronics,Monitor,Portable Monitor,True,retailrocket
+301,431,Sports & Outdoors,Water Bottle,Smart Water Bottle,True,retailrocket
+302,140,Fashion,Sunglasses,Portable Sunglasses,True,retailrocket
+303,653,Electronics,Tablet,Portable Tablet,True,retailrocket
+304,1224,Sports & Outdoors,Running Shoes,Smart Running Shoes,True,retailrocket
+305,1698,Beauty & Health,Razor,Eco Razor,True,retailrocket
+308,250,Beauty & Health,Sunscreen,Eco Sunscreen,True,retailrocket
+309,395,Home & Kitchen,Kettle,Deluxe Kettle,True,retailrocket
+310,679,Pet Supplies,Dog Leash,Smart Dog Leash,True,retailrocket
+311,431,Sports & Outdoors,Sleeping Bag,Smart Sleeping Bag,True,retailrocket
+312,653,Electronics,Smartwatch,Portable Smartwatch,True,retailrocket
+313,679,Pet Supplies,Cat Toy,Smart Cat Toy,True,retailrocket
+314,140,Fashion,Scarf,Portable Scarf,True,retailrocket
+315,140,Fashion,Jeans,Portable Jeans,True,retailrocket
+316,1482,Electronics,Headphones,Pro Headphones,True,retailrocket
+317,140,Fashion,Jacket,Pro Jacket,True,retailrocket
+318,1698,Beauty & Health,Face Cream,Portable Face Cream,True,retailrocket
+319,653,Electronics,Charger,Pro Charger,True,retailrocket
+320,1482,Electronics,Speaker,Pro Speaker,True,retailrocket
+321,140,Fashion,Sneakers,Pro Sneakers,True,retailrocket
+322,140,Fashion,Backpack,Pro Backpack,True,retailrocket
+323,140,Fashion,Dress,Pro Dress,True,retailrocket
+324,1532,Pet Supplies,Pet Bed,Smart Pet Bed,True,retailrocket
+325,140,Fashion,Watch,Pro Watch,True,retailrocket
+326,1532,Pet Supplies,Bird Feeder,Smart Bird Feeder,True,retailrocket
+327,653,Electronics,Camera,Pro Camera,True,retailrocket
+328,1224,Sports & Outdoors,Jump Rope,Smart Jump Rope,True,retailrocket
+329,250,Beauty & Health,Shampoo,Portable Shampoo,True,retailrocket
+330,1532,Pet Supplies,Fish Tank Filter,Smart Fish Tank Filter,True,retailrocket
+331,140,Fashion,Sunglasses,Pro Sunglasses,True,retailrocket
+332,140,Fashion,Scarf,Pro Scarf,True,retailrocket
+333,1490,Automotive,Floor Mats,Premium Floor Mats,True,retailrocket
+334,1600,Toys & Games,Board Game,Deluxe Board Game,True,retailrocket
+335,140,Fashion,Jeans,Pro Jeans,True,retailrocket
+336,1579,Beauty & Health,Perfume,Portable Perfume,True,retailrocket
+337,653,Electronics,Keyboard,Pro Keyboard,True,retailrocket
+338,250,Beauty & Health,Hair Dryer,Portable Hair Dryer,True,retailrocket
+339,1600,Toys & Games,Building Blocks,Deluxe Building Blocks,True,retailrocket
+340,140,Fashion,Jacket,Mini Jacket,True,retailrocket
+341,140,Fashion,Sneakers,Mini Sneakers,True,retailrocket
+342,1532,Pet Supplies,Pet Bowl,Smart Pet Bowl,True,retailrocket
+343,140,Fashion,Backpack,Mini Backpack,True,retailrocket
+344,653,Electronics,Monitor,Pro Monitor,True,retailrocket
+346,140,Fashion,Dress,Mini Dress,True,retailrocket
+348,653,Electronics,Tablet,Pro Tablet,True,retailrocket
+349,140,Fashion,Watch,Mini Watch,True,retailrocket
+350,431,Sports & Outdoors,Yoga Mat,Eco Yoga Mat,True,retailrocket
+351,653,Electronics,Smartwatch,Pro Smartwatch,True,retailrocket
+352,859,Fashion,Sunglasses,Mini Sunglasses,True,retailrocket
+353,755,Electronics,Headphones,Mini Headphones,True,retailrocket
+354,431,Sports & Outdoors,Dumbbells,Eco Dumbbells,True,retailrocket
+355,140,Fashion,Scarf,Mini Scarf,True,retailrocket
+356,653,Electronics,Charger,Mini Charger,True,retailrocket
+357,250,Beauty & Health,Vitamins,Portable Vitamins,True,retailrocket
+358,395,Home & Kitchen,Pillow,Deluxe Pillow,True,retailrocket
+359,1579,Beauty & Health,Lip Balm,Portable Lip Balm,True,retailrocket
+360,1532,Pet Supplies,Chew Toy,Smart Chew Toy,True,retailrocket
+361,1600,Toys & Games,Doll,Deluxe Doll,True,retailrocket
+362,431,Sports & Outdoors,Tent,Eco Tent,True,retailrocket
+363,755,Electronics,Speaker,Mini Speaker,True,retailrocket
+364,140,Fashion,Jeans,Mini Jeans,True,retailrocket
+365,679,Pet Supplies,Pet Carrier,Smart Pet Carrier,True,retailrocket
+366,1482,Electronics,Camera,Mini Camera,True,retailrocket
+367,1600,Toys & Games,Remote Car,Deluxe Remote Car,True,retailrocket
+368,679,Pet Supplies,Dog Leash,Eco Dog Leash,True,retailrocket
+369,140,Fashion,Jacket,Ultra Jacket,True,retailrocket
+370,140,Fashion,Sneakers,Ultra Sneakers,True,retailrocket
+371,1482,Electronics,Keyboard,Mini Keyboard,True,retailrocket
+372,395,Home & Kitchen,Curtains,Deluxe Curtains,True,retailrocket
+373,140,Fashion,Backpack,Ultra Backpack,True,retailrocket
+374,140,Fashion,Dress,Ultra Dress,True,retailrocket
+375,653,Electronics,Monitor,Mini Monitor,True,retailrocket
+376,1532,Pet Supplies,Cat Toy,Eco Cat Toy,True,retailrocket
+377,1600,Toys & Games,Plush Bear,Deluxe Plush Bear,True,retailrocket
+378,378,Sports & Outdoors,Bicycle Helmet,Eco Bicycle Helmet,True,retailrocket
+379,1600,Toys & Games,Art Set,Deluxe Art Set,True,retailrocket
+380,1579,Beauty & Health,Razor,Portable Razor,True,retailrocket
+381,1482,Electronics,Tablet,Mini Tablet,True,retailrocket
+382,140,Fashion,Watch,Ultra Watch,True,retailrocket
+383,1579,Beauty & Health,Sunscreen,Portable Sunscreen,True,retailrocket
+384,140,Fashion,Sunglasses,Ultra Sunglasses,True,retailrocket
+385,1452,Toys & Games,Card Game,Deluxe Card Game,True,retailrocket
+386,140,Fashion,Scarf,Ultra Scarf,True,retailrocket
+387,395,Home & Kitchen,Toaster,Deluxe Toaster,True,retailrocket
+388,1579,Beauty & Health,Face Cream,Pro Face Cream,True,retailrocket
+389,431,Sports & Outdoors,Water Bottle,Eco Water Bottle,True,retailrocket
+390,1224,Sports & Outdoors,Running Shoes,Eco Running Shoes,True,retailrocket
+391,250,Beauty & Health,Shampoo,Pro Shampoo,True,retailrocket
+392,653,Electronics,Smartwatch,Mini Smartwatch,True,retailrocket
+393,1490,Automotive,Dash Camera,Premium Dash Camera,True,retailrocket
+394,1600,Toys & Games,Puzzle,Smart Puzzle,True,retailrocket
+395,395,Home & Kitchen,Blender,Smart Blender,True,retailrocket
+396,140,Fashion,Jeans,Ultra Jeans,True,retailrocket
+397,1579,Beauty & Health,Perfume,Pro Perfume,True,retailrocket
+398,395,Home & Kitchen,Lamp,Smart Lamp,True,retailrocket
+399,395,Home & Kitchen,Cookware Set,Smart Cookware Set,True,retailrocket
+400,1698,Beauty & Health,Hair Dryer,Pro Hair Dryer,True,retailrocket
+401,378,Sports & Outdoors,Sleeping Bag,Eco Sleeping Bag,True,retailrocket
+402,1482,Electronics,Headphones,Ultra Headphones,True,retailrocket
+403,250,Beauty & Health,Vitamins,Pro Vitamins,True,retailrocket
+404,140,Fashion,Jacket,Basic Jacket,True,retailrocket
+405,653,Electronics,Charger,Ultra Charger,True,retailrocket
+406,1600,Toys & Games,Board Game,Smart Board Game,True,retailrocket
+407,1490,Automotive,Tire Gauge,Premium Tire Gauge,True,retailrocket
+408,395,Home & Kitchen,Vacuum,Smart Vacuum,True,retailrocket
+409,140,Fashion,Sneakers,Basic Sneakers,True,retailrocket
+410,378,Sports & Outdoors,Jump Rope,Eco Jump Rope,True,retailrocket
+411,395,Home & Kitchen,Kettle,Smart Kettle,True,retailrocket
+412,653,Electronics,Speaker,Ultra Speaker,True,retailrocket
+413,140,Fashion,Backpack,Basic Backpack,True,retailrocket
+414,1532,Pet Supplies,Pet Bed,Eco Pet Bed,True,retailrocket
+415,1579,Beauty & Health,Lip Balm,Pro Lip Balm,True,retailrocket
+416,1532,Pet Supplies,Bird Feeder,Eco Bird Feeder,True,retailrocket
+417,679,Pet Supplies,Fish Tank Filter,Eco Fish Tank Filter,True,retailrocket
+418,1394,Books & Media,Novel,Premium Novel,True,retailrocket
+419,140,Fashion,Dress,Basic Dress,True,retailrocket
+420,250,Beauty & Health,Razor,Pro Razor,True,retailrocket
+421,679,Pet Supplies,Pet Bowl,Eco Pet Bowl,True,retailrocket
+422,1698,Beauty & Health,Sunscreen,Pro Sunscreen,True,retailrocket
+423,1482,Electronics,Camera,Ultra Camera,True,retailrocket
+424,140,Fashion,Watch,Basic Watch,True,retailrocket
+425,1600,Toys & Games,Building Blocks,Smart Building Blocks,True,retailrocket
+426,1600,Toys & Games,Doll,Smart Doll,True,retailrocket
+427,1600,Toys & Games,Remote Car,Smart Remote Car,True,retailrocket
+428,250,Beauty & Health,Face Cream,Mini Face Cream,True,retailrocket
+429,1532,Pet Supplies,Chew Toy,Eco Chew Toy,True,retailrocket
+430,1698,Beauty & Health,Shampoo,Mini Shampoo,True,retailrocket
+431,431,Sports & Outdoors,Yoga Mat,Portable Yoga Mat,True,retailrocket
+432,395,Home & Kitchen,Pillow,Smart Pillow,True,retailrocket
+433,791,Home & Kitchen,Curtains,Smart Curtains,True,retailrocket
+434,1600,Toys & Games,Plush Bear,Smart Plush Bear,True,retailrocket
+435,378,Sports & Outdoors,Dumbbells,Portable Dumbbells,True,retailrocket
+436,1579,Beauty & Health,Perfume,Mini Perfume,True,retailrocket
+437,653,Electronics,Keyboard,Ultra Keyboard,True,retailrocket
+438,653,Electronics,Monitor,Ultra Monitor,True,retailrocket
+439,1532,Pet Supplies,Pet Carrier,Eco Pet Carrier,True,retailrocket
+440,1224,Sports & Outdoors,Tent,Portable Tent,True,retailrocket
+441,378,Sports & Outdoors,Bicycle Helmet,Portable Bicycle Helmet,True,retailrocket
+442,1579,Beauty & Health,Hair Dryer,Mini Hair Dryer,True,retailrocket
+443,250,Beauty & Health,Vitamins,Mini Vitamins,True,retailrocket
+444,653,Electronics,Tablet,Ultra Tablet,True,retailrocket
+445,140,Fashion,Sunglasses,Basic Sunglasses,True,retailrocket
+446,1482,Electronics,Smartwatch,Ultra Smartwatch,True,retailrocket
+447,431,Sports & Outdoors,Water Bottle,Portable Water Bottle,True,retailrocket
+448,1600,Toys & Games,Art Set,Smart Art Set,True,retailrocket
+449,679,Pet Supplies,Dog Leash,Portable Dog Leash,True,retailrocket
+450,1532,Pet Supplies,Cat Toy,Portable Cat Toy,True,retailrocket
+451,653,Electronics,Headphones,Basic Headphones,True,retailrocket
+452,395,Home & Kitchen,Toaster,Smart Toaster,True,retailrocket
+453,395,Home & Kitchen,Blender,Eco Blender,True,retailrocket
+454,1579,Beauty & Health,Lip Balm,Mini Lip Balm,True,retailrocket
+455,1698,Beauty & Health,Razor,Mini Razor,True,retailrocket
+456,1532,Pet Supplies,Pet Bed,Portable Pet Bed,True,retailrocket
+457,250,Beauty & Health,Sunscreen,Mini Sunscreen,True,retailrocket
+458,1482,Electronics,Charger,Basic Charger,True,retailrocket
+459,653,Electronics,Speaker,Basic Speaker,True,retailrocket
+460,140,Fashion,Scarf,Basic Scarf,True,retailrocket
+461,791,Home & Kitchen,Lamp,Eco Lamp,True,retailrocket
+463,250,Beauty & Health,Face Cream,Ultra Face Cream,True,retailrocket
+464,1482,Electronics,Camera,Basic Camera,True,retailrocket
+465,1600,Toys & Games,Card Game,Smart Card Game,True,retailrocket
+466,1532,Pet Supplies,Bird Feeder,Portable Bird Feeder,True,retailrocket
+467,755,Electronics,Keyboard,Basic Keyboard,True,retailrocket
+468,1579,Beauty & Health,Shampoo,Ultra Shampoo,True,retailrocket
+469,140,Fashion,Jeans,Basic Jeans,True,retailrocket
+470,1600,Toys & Games,Puzzle,Eco Puzzle,True,retailrocket
+471,140,Fashion,Jacket,Comfort Jacket,True,retailrocket
+472,431,Sports & Outdoors,Running Shoes,Portable Running Shoes,True,retailrocket
+473,140,Fashion,Sneakers,Comfort Sneakers,True,retailrocket
+474,1452,Toys & Games,Board Game,Eco Board Game,True,retailrocket
+475,1579,Beauty & Health,Perfume,Ultra Perfume,True,retailrocket
+476,378,Sports & Outdoors,Sleeping Bag,Portable Sleeping Bag,True,retailrocket
+477,653,Electronics,Monitor,Basic Monitor,True,retailrocket
+478,1224,Sports & Outdoors,Jump Rope,Portable Jump Rope,True,retailrocket
+479,1600,Toys & Games,Building Blocks,Eco Building Blocks,True,retailrocket
+480,1532,Pet Supplies,Fish Tank Filter,Portable Fish Tank Filter,True,retailrocket
+481,431,Sports & Outdoors,Yoga Mat,Pro Yoga Mat,True,retailrocket
+482,395,Home & Kitchen,Cookware Set,Eco Cookware Set,True,retailrocket
+483,395,Home & Kitchen,Vacuum,Eco Vacuum,True,retailrocket
+484,653,Electronics,Tablet,Basic Tablet,True,retailrocket
+485,250,Beauty & Health,Hair Dryer,Ultra Hair Dryer,True,retailrocket
+486,1490,Automotive,Car Vacuum,Premium Car Vacuum,True,retailrocket
+487,1600,Toys & Games,Doll,Eco Doll,True,retailrocket
+488,1579,Beauty & Health,Vitamins,Ultra Vitamins,True,retailrocket
+489,1698,Beauty & Health,Lip Balm,Ultra Lip Balm,True,retailrocket
+490,1698,Beauty & Health,Razor,Ultra Razor,True,retailrocket
+491,679,Pet Supplies,Pet Bowl,Portable Pet Bowl,True,retailrocket
+492,431,Sports & Outdoors,Dumbbells,Pro Dumbbells,True,retailrocket
+493,1600,Toys & Games,Remote Car,Eco Remote Car,True,retailrocket
+494,653,Electronics,Smartwatch,Basic Smartwatch,True,retailrocket
+495,1490,Automotive,Phone Holder,Premium Phone Holder,True,retailrocket
+496,395,Home & Kitchen,Kettle,Eco Kettle,True,retailrocket
+497,140,Fashion,Backpack,Comfort Backpack,True,retailrocket
+498,250,Beauty & Health,Sunscreen,Ultra Sunscreen,True,retailrocket
+499,1532,Pet Supplies,Chew Toy,Portable Chew Toy,True,retailrocket
+500,1532,Pet Supplies,Pet Carrier,Portable Pet Carrier,True,retailrocket
+501,431,Sports & Outdoors,Tent,Pro Tent,True,retailrocket
+502,1182,Home & Kitchen,Pillow,Eco Pillow,True,retailrocket
+503,653,Electronics,Headphones,Comfort Headphones,True,retailrocket
+504,378,Sports & Outdoors,Bicycle Helmet,Pro Bicycle Helmet,True,retailrocket
+505,1600,Toys & Games,Plush Bear,Eco Plush Bear,True,retailrocket
+506,250,Beauty & Health,Face Cream,Basic Face Cream,True,retailrocket
+507,1224,Sports & Outdoors,Water Bottle,Pro Water Bottle,True,retailrocket
+508,431,Sports & Outdoors,Running Shoes,Pro Running Shoes,True,retailrocket
+509,1698,Beauty & Health,Shampoo,Basic Shampoo,True,retailrocket
+510,140,Fashion,Dress,Comfort Dress,True,retailrocket
+511,250,Beauty & Health,Perfume,Basic Perfume,True,retailrocket
+512,431,Sports & Outdoors,Sleeping Bag,Pro Sleeping Bag,True,retailrocket
+513,1057,Books & Media,Cookbook,Premium Cookbook,True,retailrocket
+514,395,Home & Kitchen,Curtains,Eco Curtains,True,retailrocket
+515,140,Fashion,Watch,Comfort Watch,True,retailrocket
+516,395,Home & Kitchen,Toaster,Eco Toaster,True,retailrocket
+517,1532,Pet Supplies,Dog Leash,Pro Dog Leash,True,retailrocket
+518,431,Sports & Outdoors,Jump Rope,Pro Jump Rope,True,retailrocket
+519,1452,Toys & Games,Art Set,Eco Art Set,True,retailrocket
+520,1600,Toys & Games,Card Game,Eco Card Game,True,retailrocket
+521,395,Home & Kitchen,Blender,Portable Blender,True,retailrocket
+522,140,Fashion,Sunglasses,Comfort Sunglasses,True,retailrocket
+523,1482,Electronics,Charger,Comfort Charger,True,retailrocket
+524,1532,Pet Supplies,Cat Toy,Pro Cat Toy,True,retailrocket
+525,1224,Sports & Outdoors,Yoga Mat,Mini Yoga Mat,True,retailrocket
+526,1579,Beauty & Health,Hair Dryer,Basic Hair Dryer,True,retailrocket
+527,653,Electronics,Speaker,Comfort Speaker,True,retailrocket
+528,395,Home & Kitchen,Lamp,Portable Lamp,True,retailrocket
+529,1482,Electronics,Camera,Comfort Camera,True,retailrocket
+530,395,Home & Kitchen,Cookware Set,Portable Cookware Set,True,retailrocket
+531,140,Fashion,Scarf,Comfort Scarf,True,retailrocket
+532,653,Electronics,Keyboard,Comfort Keyboard,True,retailrocket
+533,1532,Pet Supplies,Pet Bed,Pro Pet Bed,True,retailrocket
+534,431,Sports & Outdoors,Dumbbells,Mini Dumbbells,True,retailrocket
+535,1600,Toys & Games,Puzzle,Portable Puzzle,True,retailrocket
+536,1579,Beauty & Health,Vitamins,Basic Vitamins,True,retailrocket
+537,140,Fashion,Jeans,Comfort Jeans,True,retailrocket
+538,250,Beauty & Health,Lip Balm,Basic Lip Balm,True,retailrocket
+539,140,Fashion,Jacket,Sport Jacket,True,retailrocket
+540,140,Fashion,Sneakers,Sport Sneakers,True,retailrocket
+541,140,Fashion,Backpack,Sport Backpack,True,retailrocket
+542,378,Sports & Outdoors,Tent,Mini Tent,True,retailrocket
+543,250,Beauty & Health,Razor,Basic Razor,True,retailrocket
+544,1600,Toys & Games,Board Game,Portable Board Game,True,retailrocket
+545,1482,Electronics,Monitor,Comfort Monitor,True,retailrocket
+546,250,Beauty & Health,Sunscreen,Basic Sunscreen,True,retailrocket
+547,1579,Beauty & Health,Face Cream,Comfort Face Cream,True,retailrocket
+548,1394,Books & Media,Notebook,Premium Notebook,True,retailrocket
+549,1600,Toys & Games,Building Blocks,Portable Building Blocks,True,retailrocket
+550,679,Pet Supplies,Bird Feeder,Pro Bird Feeder,True,retailrocket
+551,1532,Pet Supplies,Fish Tank Filter,Pro Fish Tank Filter,True,retailrocket
+552,250,Beauty & Health,Shampoo,Comfort Shampoo,True,retailrocket
+553,679,Pet Supplies,Pet Bowl,Pro Pet Bowl,True,retailrocket
+555,140,Fashion,Dress,Sport Dress,True,retailrocket
+556,1600,Toys & Games,Doll,Portable Doll,True,retailrocket
+557,395,Home & Kitchen,Vacuum,Portable Vacuum,True,retailrocket
+558,653,Electronics,Tablet,Comfort Tablet,True,retailrocket
+559,679,Pet Supplies,Chew Toy,Pro Chew Toy,True,retailrocket
+560,679,Pet Supplies,Pet Carrier,Pro Pet Carrier,True,retailrocket
+561,395,Home & Kitchen,Kettle,Portable Kettle,True,retailrocket
+562,1532,Pet Supplies,Dog Leash,Mini Dog Leash,True,retailrocket
+563,140,Fashion,Watch,Sport Watch,True,retailrocket
+564,1394,Books & Media,Planner,Premium Planner,True,retailrocket
+565,1532,Pet Supplies,Cat Toy,Mini Cat Toy,True,retailrocket
+567,1482,Electronics,Smartwatch,Comfort Smartwatch,True,retailrocket
+568,140,Fashion,Sunglasses,Sport Sunglasses,True,retailrocket
+569,1600,Toys & Games,Remote Car,Portable Remote Car,True,retailrocket
+570,653,Electronics,Headphones,Sport Headphones,True,retailrocket
+571,1600,Toys & Games,Plush Bear,Portable Plush Bear,True,retailrocket
+572,1532,Pet Supplies,Pet Bed,Mini Pet Bed,True,retailrocket
+573,1600,Toys & Games,Art Set,Portable Art Set,True,retailrocket
+574,1579,Beauty & Health,Perfume,Comfort Perfume,True,retailrocket
+575,395,Home & Kitchen,Pillow,Portable Pillow,True,retailrocket
+576,1698,Beauty & Health,Hair Dryer,Comfort Hair Dryer,True,retailrocket
+577,1224,Sports & Outdoors,Bicycle Helmet,Mini Bicycle Helmet,True,retailrocket
+578,395,Home & Kitchen,Curtains,Portable Curtains,True,retailrocket
+579,140,Fashion,Scarf,Sport Scarf,True,retailrocket
+580,1600,Toys & Games,Card Game,Portable Card Game,True,retailrocket
+581,1600,Toys & Games,Puzzle,Pro Puzzle,True,retailrocket
+582,1579,Beauty & Health,Vitamins,Comfort Vitamins,True,retailrocket
+583,250,Beauty & Health,Lip Balm,Comfort Lip Balm,True,retailrocket
+584,1490,Automotive,Wax Kit,Premium Wax Kit,True,retailrocket
+585,140,Fashion,Jeans,Sport Jeans,True,retailrocket
+586,140,Fashion,Jacket,Home Jacket,True,retailrocket
+587,791,Home & Kitchen,Toaster,Portable Toaster,True,retailrocket
+588,395,Home & Kitchen,Blender,Pro Blender,True,retailrocket
+589,140,Fashion,Sneakers,Home Sneakers,True,retailrocket
+590,1579,Beauty & Health,Razor,Comfort Razor,True,retailrocket
+591,1224,Sports & Outdoors,Water Bottle,Mini Water Bottle,True,retailrocket
+592,1579,Beauty & Health,Sunscreen,Comfort Sunscreen,True,retailrocket
+593,1482,Electronics,Charger,Sport Charger,True,retailrocket
+594,1532,Pet Supplies,Bird Feeder,Mini Bird Feeder,True,retailrocket
+595,1579,Beauty & Health,Face Cream,Sport Face Cream,True,retailrocket
+596,140,Fashion,Backpack,Home Backpack,True,retailrocket
+597,140,Fashion,Dress,Home Dress,True,retailrocket
+598,431,Sports & Outdoors,Running Shoes,Mini Running Shoes,True,retailrocket
+599,653,Electronics,Speaker,Sport Speaker,True,retailrocket
+600,653,Electronics,Camera,Sport Camera,True,retailrocket
+601,1482,Electronics,Keyboard,Sport Keyboard,True,retailrocket
+602,791,Home & Kitchen,Lamp,Pro Lamp,True,retailrocket
+603,395,Home & Kitchen,Cookware Set,Pro Cookware Set,True,retailrocket
+604,378,Sports & Outdoors,Sleeping Bag,Mini Sleeping Bag,True,retailrocket
+605,1482,Electronics,Monitor,Sport Monitor,True,retailrocket
+606,378,Sports & Outdoors,Jump Rope,Mini Jump Rope,True,retailrocket
+607,653,Electronics,Tablet,Sport Tablet,True,retailrocket
+608,1579,Beauty & Health,Shampoo,Sport Shampoo,True,retailrocket
+609,1600,Toys & Games,Board Game,Pro Board Game,True,retailrocket
+610,653,Electronics,Smartwatch,Sport Smartwatch,True,retailrocket
+611,1532,Pet Supplies,Fish Tank Filter,Mini Fish Tank Filter,True,retailrocket
+612,1224,Sports & Outdoors,Yoga Mat,Ultra Yoga Mat,True,retailrocket
+613,1490,Automotive,Car Charger,Compact Car Charger,True,retailrocket
+614,1600,Toys & Games,Building Blocks,Pro Building Blocks,True,retailrocket
+615,378,Sports & Outdoors,Dumbbells,Ultra Dumbbells,True,retailrocket
+616,1600,Toys & Games,Doll,Pro Doll,True,retailrocket
+617,140,Fashion,Watch,Home Watch,True,retailrocket
+618,1224,Sports & Outdoors,Tent,Ultra Tent,True,retailrocket
+619,1490,Automotive,Seat Cover,Compact Seat Cover,True,retailrocket
+620,140,Fashion,Sunglasses,Home Sunglasses,True,retailrocket
+621,1490,Automotive,Floor Mats,Compact Floor Mats,True,retailrocket
+622,653,Electronics,Headphones,Home Headphones,True,retailrocket
+623,1482,Electronics,Charger,Home Charger,True,retailrocket
+624,1224,Sports & Outdoors,Bicycle Helmet,Ultra Bicycle Helmet,True,retailrocket
+625,653,Electronics,Speaker,Home Speaker,True,retailrocket
+626,140,Fashion,Scarf,Home Scarf,True,retailrocket
+627,1600,Toys & Games,Remote Car,Pro Remote Car,True,retailrocket
+628,140,Fashion,Jeans,Home Jeans,True,retailrocket
+629,791,Home & Kitchen,Vacuum,Pro Vacuum,True,retailrocket
+630,679,Pet Supplies,Pet Bowl,Mini Pet Bowl,True,retailrocket
+631,250,Beauty & Health,Perfume,Sport Perfume,True,retailrocket
+632,1579,Beauty & Health,Hair Dryer,Sport Hair Dryer,True,retailrocket
+633,140,Fashion,Jacket,Travel Jacket,True,retailrocket
+634,1532,Pet Supplies,Chew Toy,Mini Chew Toy,True,retailrocket
+635,791,Home & Kitchen,Kettle,Pro Kettle,True,retailrocket
+636,1600,Toys & Games,Plush Bear,Pro Plush Bear,True,retailrocket
+637,653,Electronics,Camera,Home Camera,True,retailrocket
+638,395,Home & Kitchen,Pillow,Pro Pillow,True,retailrocket
+639,653,Electronics,Keyboard,Home Keyboard,True,retailrocket
+640,1600,Toys & Games,Art Set,Pro Art Set,True,retailrocket
+641,653,Electronics,Monitor,Home Monitor,True,retailrocket
+642,250,Beauty & Health,Vitamins,Sport Vitamins,True,retailrocket
+643,140,Fashion,Sneakers,Travel Sneakers,True,retailrocket
+644,1490,Automotive,Dash Camera,Compact Dash Camera,True,retailrocket
+645,653,Electronics,Tablet,Home Tablet,True,retailrocket
+646,1600,Toys & Games,Card Game,Pro Card Game,True,retailrocket
+647,1698,Beauty & Health,Lip Balm,Sport Lip Balm,True,retailrocket
+648,1600,Toys & Games,Puzzle,Mini Puzzle,True,retailrocket
+649,1579,Beauty & Health,Razor,Sport Razor,True,retailrocket
+650,378,Sports & Outdoors,Water Bottle,Ultra Water Bottle,True,retailrocket
+651,140,Fashion,Backpack,Travel Backpack,True,retailrocket
+652,653,Electronics,Smartwatch,Home Smartwatch,True,retailrocket
+653,653,Electronics,Headphones,Travel Headphones,True,retailrocket
+654,395,Home & Kitchen,Curtains,Pro Curtains,True,retailrocket
+655,1532,Pet Supplies,Pet Carrier,Mini Pet Carrier,True,retailrocket
+656,1532,Pet Supplies,Dog Leash,Ultra Dog Leash,True,retailrocket
+657,1600,Toys & Games,Board Game,Mini Board Game,True,retailrocket
+658,250,Beauty & Health,Sunscreen,Sport Sunscreen,True,retailrocket
+659,659,Garden & Tools,Toolbox,Classic Toolbox,True,retailrocket
+660,140,Fashion,Dress,Travel Dress,True,retailrocket
+661,653,Electronics,Charger,Travel Charger,True,retailrocket
+662,140,Fashion,Watch,Travel Watch,True,retailrocket
+663,395,Home & Kitchen,Toaster,Pro Toaster,True,retailrocket
+664,1490,Automotive,Tire Gauge,Compact Tire Gauge,True,retailrocket
+665,1600,Toys & Games,Building Blocks,Mini Building Blocks,True,retailrocket
+666,1579,Beauty & Health,Face Cream,Home Face Cream,True,retailrocket
+667,140,Fashion,Sunglasses,Travel Sunglasses,True,retailrocket
+668,653,Electronics,Speaker,Travel Speaker,True,retailrocket
+669,1532,Pet Supplies,Cat Toy,Ultra Cat Toy,True,retailrocket
+670,1224,Sports & Outdoors,Running Shoes,Ultra Running Shoes,True,retailrocket
+671,1482,Electronics,Camera,Travel Camera,True,retailrocket
+672,250,Beauty & Health,Shampoo,Home Shampoo,True,retailrocket
+673,659,Garden & Tools,Pruner,Classic Pruner,True,retailrocket
+674,431,Sports & Outdoors,Sleeping Bag,Ultra Sleeping Bag,True,retailrocket
+675,1182,Home & Kitchen,Blender,Mini Blender,True,retailrocket
+676,1600,Toys & Games,Doll,Mini Doll,True,retailrocket
+677,1532,Pet Supplies,Pet Bed,Ultra Pet Bed,True,retailrocket
+678,250,Beauty & Health,Perfume,Home Perfume,True,retailrocket
+679,679,Pet Supplies,Bird Feeder,Ultra Bird Feeder,True,retailrocket
+680,1224,Sports & Outdoors,Jump Rope,Ultra Jump Rope,True,retailrocket
+681,1579,Beauty & Health,Hair Dryer,Home Hair Dryer,True,retailrocket
+682,1532,Pet Supplies,Fish Tank Filter,Ultra Fish Tank Filter,True,retailrocket
+683,1600,Toys & Games,Remote Car,Mini Remote Car,True,retailrocket
+684,1600,Toys & Games,Plush Bear,Mini Plush Bear,True,retailrocket
+685,140,Fashion,Scarf,Travel Scarf,True,retailrocket
+686,1532,Pet Supplies,Pet Bowl,Ultra Pet Bowl,True,retailrocket
+687,1224,Sports & Outdoors,Yoga Mat,Basic Yoga Mat,True,retailrocket
+688,395,Home & Kitchen,Lamp,Mini Lamp,True,retailrocket
+689,1490,Automotive,Car Vacuum,Compact Car Vacuum,True,retailrocket
+690,1532,Pet Supplies,Chew Toy,Ultra Chew Toy,True,retailrocket
+691,395,Home & Kitchen,Cookware Set,Mini Cookware Set,True,retailrocket
+692,1532,Pet Supplies,Pet Carrier,Ultra Pet Carrier,True,retailrocket
+693,395,Home & Kitchen,Vacuum,Mini Vacuum,True,retailrocket
+694,395,Home & Kitchen,Kettle,Mini Kettle,True,retailrocket
+695,140,Fashion,Jeans,Travel Jeans,True,retailrocket
+696,1579,Beauty & Health,Vitamins,Home Vitamins,True,retailrocket
+697,1394,Books & Media,Comic Book,Premium Comic Book,True,retailrocket
+698,653,Electronics,Keyboard,Travel Keyboard,True,retailrocket
+699,140,Fashion,Jacket,Family Jacket,True,retailrocket
+700,140,Fashion,Sneakers,Family Sneakers,True,retailrocket
+701,395,Home & Kitchen,Pillow,Mini Pillow,True,retailrocket
+702,1698,Beauty & Health,Lip Balm,Home Lip Balm,True,retailrocket
+703,1482,Electronics,Monitor,Travel Monitor,True,retailrocket
+704,1482,Electronics,Tablet,Travel Tablet,True,retailrocket
+705,140,Fashion,Backpack,Family Backpack,True,retailrocket
+706,395,Home & Kitchen,Curtains,Mini Curtains,True,retailrocket
+707,395,Home & Kitchen,Toaster,Mini Toaster,True,retailrocket
+708,250,Beauty & Health,Razor,Home Razor,True,retailrocket
+709,1490,Automotive,Phone Holder,Compact Phone Holder,True,retailrocket
+710,1482,Electronics,Smartwatch,Travel Smartwatch,True,retailrocket
+711,140,Fashion,Dress,Family Dress,True,retailrocket
+712,1579,Beauty & Health,Sunscreen,Home Sunscreen,True,retailrocket
+713,395,Home & Kitchen,Blender,Ultra Blender,True,retailrocket
+714,1600,Toys & Games,Art Set,Mini Art Set,True,retailrocket
+715,1482,Electronics,Headphones,Family Headphones,True,retailrocket
+716,1579,Beauty & Health,Face Cream,Travel Face Cream,True,retailrocket
+717,803,Garden & Tools,Ladder,Classic Ladder,True,retailrocket
+718,653,Electronics,Charger,Family Charger,True,retailrocket
+719,140,Fashion,Watch,Family Watch,True,retailrocket
+720,1698,Beauty & Health,Shampoo,Travel Shampoo,True,retailrocket
+722,653,Electronics,Speaker,Family Speaker,True,retailrocket
+723,1600,Toys & Games,Card Game,Mini Card Game,True,retailrocket
+724,250,Beauty & Health,Perfume,Travel Perfume,True,retailrocket
+725,140,Fashion,Sunglasses,Family Sunglasses,True,retailrocket
+726,1579,Beauty & Health,Hair Dryer,Travel Hair Dryer,True,retailrocket
+727,378,Sports & Outdoors,Dumbbells,Basic Dumbbells,True,retailrocket
+728,431,Sports & Outdoors,Tent,Basic Tent,True,retailrocket
+729,1579,Beauty & Health,Vitamins,Travel Vitamins,True,retailrocket
+730,1482,Electronics,Camera,Family Camera,True,retailrocket
+731,1692,Automotive,Wax Kit,Compact Wax Kit,True,retailrocket
+732,1482,Electronics,Keyboard,Family Keyboard,True,retailrocket
+733,250,Beauty & Health,Lip Balm,Travel Lip Balm,True,retailrocket
+734,395,Home & Kitchen,Lamp,Ultra Lamp,True,retailrocket
+735,1579,Beauty & Health,Razor,Travel Razor,True,retailrocket
+736,1600,Toys & Games,Puzzle,Ultra Puzzle,True,retailrocket
+737,1482,Electronics,Monitor,Family Monitor,True,retailrocket
+738,140,Fashion,Scarf,Family Scarf,True,retailrocket
+739,140,Fashion,Jeans,Family Jeans,True,retailrocket
+740,1490,Automotive,Car Charger,Deluxe Car Charger,True,retailrocket
+741,431,Sports & Outdoors,Bicycle Helmet,Basic Bicycle Helmet,True,retailrocket
+742,1698,Beauty & Health,Sunscreen,Travel Sunscreen,True,retailrocket
+743,1394,Books & Media,Dictionary,Premium Dictionary,True,retailrocket
+744,1224,Sports & Outdoors,Water Bottle,Basic Water Bottle,True,retailrocket
+745,140,Fashion,Jacket,Urban Jacket,True,retailrocket
+746,395,Home & Kitchen,Cookware Set,Ultra Cookware Set,True,retailrocket
+747,1600,Toys & Games,Board Game,Ultra Board Game,True,retailrocket
+748,1600,Toys & Games,Building Blocks,Ultra Building Blocks,True,retailrocket
+749,250,Beauty & Health,Face Cream,Family Face Cream,True,retailrocket
+750,659,Garden & Tools,Flashlight,Classic Flashlight,True,retailrocket
+751,395,Home & Kitchen,Vacuum,Ultra Vacuum,True,retailrocket
+752,679,Pet Supplies,Dog Leash,Basic Dog Leash,True,retailrocket
+753,140,Fashion,Sneakers,Urban Sneakers,True,retailrocket
+754,1224,Sports & Outdoors,Running Shoes,Basic Running Shoes,True,retailrocket
+755,755,Electronics,Tablet,Family Tablet,True,retailrocket
+756,1698,Beauty & Health,Shampoo,Family Shampoo,True,retailrocket
+757,1600,Toys & Games,Doll,Ultra Doll,True,retailrocket
+758,1600,Toys & Games,Remote Car,Ultra Remote Car,True,retailrocket
+759,791,Home & Kitchen,Kettle,Ultra Kettle,True,retailrocket
+760,1698,Beauty & Health,Perfume,Family Perfume,True,retailrocket
+761,395,Home & Kitchen,Pillow,Ultra Pillow,True,retailrocket
+762,653,Electronics,Smartwatch,Family Smartwatch,True,retailrocket
+763,1579,Beauty & Health,Hair Dryer,Family Hair Dryer,True,retailrocket
+764,1600,Toys & Games,Plush Bear,Ultra Plush Bear,True,retailrocket
+765,791,Home & Kitchen,Curtains,Ultra Curtains,True,retailrocket
+766,1532,Pet Supplies,Cat Toy,Basic Cat Toy,True,retailrocket
+767,1224,Sports & Outdoors,Sleeping Bag,Basic Sleeping Bag,True,retailrocket
+768,653,Electronics,Headphones,Urban Headphones,True,retailrocket
+769,791,Home & Kitchen,Toaster,Ultra Toaster,True,retailrocket
+770,1490,Automotive,Seat Cover,Deluxe Seat Cover,True,retailrocket
+771,653,Electronics,Charger,Urban Charger,True,retailrocket
+772,1532,Pet Supplies,Pet Bed,Basic Pet Bed,True,retailrocket
+773,378,Sports & Outdoors,Jump Rope,Basic Jump Rope,True,retailrocket
+774,140,Fashion,Backpack,Urban Backpack,True,retailrocket
+775,1579,Beauty & Health,Vitamins,Family Vitamins,True,retailrocket
+776,378,Sports & Outdoors,Yoga Mat,Comfort Yoga Mat,True,retailrocket
+777,140,Fashion,Dress,Urban Dress,True,retailrocket
+778,1057,Books & Media,Audiobook,Premium Audiobook,True,retailrocket
+779,250,Beauty & Health,Lip Balm,Family Lip Balm,True,retailrocket
+780,1698,Beauty & Health,Razor,Family Razor,True,retailrocket
+781,1600,Toys & Games,Art Set,Ultra Art Set,True,retailrocket
+782,653,Electronics,Speaker,Urban Speaker,True,retailrocket
+783,1600,Toys & Games,Card Game,Ultra Card Game,True,retailrocket
+784,1394,Books & Media,Calendar,Premium Calendar,True,retailrocket
+785,1692,Automotive,Floor Mats,Deluxe Floor Mats,True,retailrocket
+786,1600,Toys & Games,Puzzle,Basic Puzzle,True,retailrocket
+787,1600,Toys & Games,Board Game,Basic Board Game,True,retailrocket
+788,1490,Automotive,Dash Camera,Deluxe Dash Camera,True,retailrocket
+789,1600,Toys & Games,Building Blocks,Basic Building Blocks,True,retailrocket
+790,1532,Pet Supplies,Bird Feeder,Basic Bird Feeder,True,retailrocket
+791,791,Home & Kitchen,Blender,Basic Blender,True,retailrocket
+792,140,Fashion,Watch,Urban Watch,True,retailrocket
+793,1532,Pet Supplies,Fish Tank Filter,Basic Fish Tank Filter,True,retailrocket
+794,791,Home & Kitchen,Lamp,Basic Lamp,True,retailrocket
+795,250,Beauty & Health,Sunscreen,Family Sunscreen,True,retailrocket
+796,140,Fashion,Sunglasses,Urban Sunglasses,True,retailrocket
+797,1532,Pet Supplies,Pet Bowl,Basic Pet Bowl,True,retailrocket
+798,1490,Automotive,Tire Gauge,Deluxe Tire Gauge,True,retailrocket
+799,140,Fashion,Scarf,Urban Scarf,True,retailrocket
+800,1579,Beauty & Health,Face Cream,Urban Face Cream,True,retailrocket
+801,1532,Pet Supplies,Chew Toy,Basic Chew Toy,True,retailrocket
+802,140,Fashion,Jeans,Urban Jeans,True,retailrocket
+803,803,Garden & Tools,Paint Roller,Classic Paint Roller,True,retailrocket
+804,1600,Toys & Games,Doll,Basic Doll,True,retailrocket
+805,140,Fashion,Jacket,Modern Jacket,True,retailrocket
+806,1490,Automotive,Car Vacuum,Deluxe Car Vacuum,True,retailrocket
+807,140,Fashion,Sneakers,Modern Sneakers,True,retailrocket
+808,140,Fashion,Backpack,Modern Backpack,True,retailrocket
+809,395,Home & Kitchen,Cookware Set,Basic Cookware Set,True,retailrocket
+810,378,Sports & Outdoors,Dumbbells,Comfort Dumbbells,True,retailrocket
+811,1490,Automotive,Phone Holder,Deluxe Phone Holder,True,retailrocket
+812,653,Electronics,Camera,Urban Camera,True,retailrocket
+813,1057,Books & Media,Novel,Compact Novel,True,retailrocket
+814,250,Beauty & Health,Shampoo,Urban Shampoo,True,retailrocket
+815,250,Beauty & Health,Perfume,Urban Perfume,True,retailrocket
+816,1482,Electronics,Keyboard,Urban Keyboard,True,retailrocket
+817,1579,Beauty & Health,Hair Dryer,Urban Hair Dryer,True,retailrocket
+818,1600,Toys & Games,Remote Car,Basic Remote Car,True,retailrocket
+819,1490,Automotive,Wax Kit,Deluxe Wax Kit,True,retailrocket
+820,395,Home & Kitchen,Vacuum,Basic Vacuum,True,retailrocket
+821,1532,Pet Supplies,Pet Carrier,Basic Pet Carrier,True,retailrocket
+822,1224,Sports & Outdoors,Tent,Comfort Tent,True,retailrocket
+823,431,Sports & Outdoors,Bicycle Helmet,Comfort Bicycle Helmet,True,retailrocket
+824,1579,Beauty & Health,Vitamins,Urban Vitamins,True,retailrocket
+825,140,Fashion,Dress,Modern Dress,True,retailrocket
+826,140,Fashion,Watch,Modern Watch,True,retailrocket
+827,140,Fashion,Sunglasses,Modern Sunglasses,True,retailrocket
+828,1532,Pet Supplies,Dog Leash,Comfort Dog Leash,True,retailrocket
+829,1579,Beauty & Health,Lip Balm,Urban Lip Balm,True,retailrocket
+830,140,Fashion,Scarf,Modern Scarf,True,retailrocket
+831,140,Fashion,Jeans,Modern Jeans,True,retailrocket
+832,140,Fashion,Jacket,Vintage Jacket,True,retailrocket
+833,679,Pet Supplies,Cat Toy,Comfort Cat Toy,True,retailrocket
+834,1579,Beauty & Health,Razor,Urban Razor,True,retailrocket
+835,1600,Toys & Games,Plush Bear,Basic Plush Bear,True,retailrocket
+836,1600,Toys & Games,Art Set,Basic Art Set,True,retailrocket
+837,395,Home & Kitchen,Kettle,Basic Kettle,True,retailrocket
+838,140,Fashion,Sneakers,Vintage Sneakers,True,retailrocket
+839,1224,Sports & Outdoors,Water Bottle,Comfort Water Bottle,True,retailrocket
+840,1579,Beauty & Health,Sunscreen,Urban Sunscreen,True,retailrocket
+841,1698,Beauty & Health,Face Cream,Modern Face Cream,True,retailrocket
+842,1579,Beauty & Health,Shampoo,Modern Shampoo,True,retailrocket
+843,1579,Beauty & Health,Perfume,Modern Perfume,True,retailrocket
+844,140,Fashion,Backpack,Vintage Backpack,True,retailrocket
+845,140,Fashion,Dress,Vintage Dress,True,retailrocket
+846,1532,Pet Supplies,Pet Bed,Comfort Pet Bed,True,retailrocket
+847,653,Electronics,Monitor,Urban Monitor,True,retailrocket
+848,140,Fashion,Watch,Vintage Watch,True,retailrocket
+849,653,Electronics,Tablet,Urban Tablet,True,retailrocket
+850,1579,Beauty & Health,Hair Dryer,Modern Hair Dryer,True,retailrocket
+851,791,Home & Kitchen,Pillow,Basic Pillow,True,retailrocket
+852,1600,Toys & Games,Card Game,Basic Card Game,True,retailrocket
+853,250,Beauty & Health,Vitamins,Modern Vitamins,True,retailrocket
+854,1482,Electronics,Smartwatch,Urban Smartwatch,True,retailrocket
+855,1579,Beauty & Health,Lip Balm,Modern Lip Balm,True,retailrocket
+856,140,Fashion,Sunglasses,Vintage Sunglasses,True,retailrocket
+857,140,Fashion,Scarf,Vintage Scarf,True,retailrocket
+858,1482,Electronics,Headphones,Modern Headphones,True,retailrocket
+859,859,Fashion,Jeans,Vintage Jeans,True,retailrocket
+860,140,Fashion,Jacket,Lite Jacket,True,retailrocket
+861,1482,Electronics,Charger,Modern Charger,True,retailrocket
+862,140,Fashion,Sneakers,Lite Sneakers,True,retailrocket
+863,1579,Beauty & Health,Razor,Modern Razor,True,retailrocket
+864,755,Electronics,Speaker,Modern Speaker,True,retailrocket
+865,1579,Beauty & Health,Sunscreen,Modern Sunscreen,True,retailrocket
+866,803,Garden & Tools,Drill,Premium Drill,True,retailrocket
+867,378,Sports & Outdoors,Running Shoes,Comfort Running Shoes,True,retailrocket
+868,395,Home & Kitchen,Curtains,Basic Curtains,True,retailrocket
+869,679,Pet Supplies,Bird Feeder,Comfort Bird Feeder,True,retailrocket
+870,791,Home & Kitchen,Toaster,Basic Toaster,True,retailrocket
+871,1224,Sports & Outdoors,Sleeping Bag,Comfort Sleeping Bag,True,retailrocket
+872,1600,Toys & Games,Puzzle,Comfort Puzzle,True,retailrocket
+873,1600,Toys & Games,Board Game,Comfort Board Game,True,retailrocket
+874,250,Beauty & Health,Face Cream,Vintage Face Cream,True,retailrocket
+875,1600,Toys & Games,Building Blocks,Comfort Building Blocks,True,retailrocket
+876,1600,Toys & Games,Doll,Comfort Doll,True,retailrocket
+877,653,Electronics,Camera,Modern Camera,True,retailrocket
+878,395,Home & Kitchen,Blender,Comfort Blender,True,retailrocket
+879,1482,Electronics,Keyboard,Modern Keyboard,True,retailrocket
+880,1579,Beauty & Health,Shampoo,Vintage Shampoo,True,retailrocket
+881,1532,Pet Supplies,Fish Tank Filter,Comfort Fish Tank Filter,True,retailrocket
+882,431,Sports & Outdoors,Jump Rope,Comfort Jump Rope,True,retailrocket
+883,1600,Toys & Games,Remote Car,Comfort Remote Car,True,retailrocket
+884,653,Electronics,Monitor,Modern Monitor,True,retailrocket
+885,1579,Beauty & Health,Perfume,Vintage Perfume,True,retailrocket
+886,140,Fashion,Backpack,Lite Backpack,True,retailrocket
+887,1532,Pet Supplies,Pet Bowl,Comfort Pet Bowl,True,retailrocket
+888,803,Garden & Tools,Hammer,Premium Hammer,True,retailrocket
+889,1532,Pet Supplies,Chew Toy,Comfort Chew Toy,True,retailrocket
+890,1579,Beauty & Health,Hair Dryer,Vintage Hair Dryer,True,retailrocket
+891,1532,Pet Supplies,Pet Carrier,Comfort Pet Carrier,True,retailrocket
+892,1600,Toys & Games,Plush Bear,Comfort Plush Bear,True,retailrocket
+893,395,Home & Kitchen,Lamp,Comfort Lamp,True,retailrocket
+894,378,Sports & Outdoors,Yoga Mat,Sport Yoga Mat,True,retailrocket
+895,653,Electronics,Tablet,Modern Tablet,True,retailrocket
+896,1600,Toys & Games,Art Set,Comfort Art Set,True,retailrocket
+897,140,Fashion,Dress,Lite Dress,True,retailrocket
+898,1579,Beauty & Health,Vitamins,Vintage Vitamins,True,retailrocket
+900,250,Beauty & Health,Lip Balm,Vintage Lip Balm,True,retailrocket
+901,679,Pet Supplies,Dog Leash,Sport Dog Leash,True,retailrocket
+902,803,Garden & Tools,Garden Hose,Premium Garden Hose,True,retailrocket
+903,1452,Toys & Games,Card Game,Comfort Card Game,True,retailrocket
+904,1224,Sports & Outdoors,Dumbbells,Sport Dumbbells,True,retailrocket
+905,1698,Beauty & Health,Razor,Vintage Razor,True,retailrocket
+906,250,Beauty & Health,Sunscreen,Vintage Sunscreen,True,retailrocket
+907,653,Electronics,Smartwatch,Modern Smartwatch,True,retailrocket
+908,140,Fashion,Watch,Lite Watch,True,retailrocket
+909,791,Home & Kitchen,Cookware Set,Comfort Cookware Set,True,retailrocket
+910,1579,Beauty & Health,Face Cream,Lite Face Cream,True,retailrocket
+911,1482,Electronics,Headphones,Vintage Headphones,True,retailrocket
+912,653,Electronics,Charger,Vintage Charger,True,retailrocket
+913,1394,Books & Media,Cookbook,Compact Cookbook,True,retailrocket
+914,1532,Pet Supplies,Cat Toy,Sport Cat Toy,True,retailrocket
+915,1579,Beauty & Health,Shampoo,Lite Shampoo,True,retailrocket
+916,653,Electronics,Speaker,Vintage Speaker,True,retailrocket
+917,395,Home & Kitchen,Vacuum,Comfort Vacuum,True,retailrocket
+918,1579,Beauty & Health,Perfume,Lite Perfume,True,retailrocket
+920,140,Fashion,Sunglasses,Lite Sunglasses,True,retailrocket
+921,1482,Electronics,Camera,Vintage Camera,True,retailrocket
+922,250,Beauty & Health,Hair Dryer,Lite Hair Dryer,True,retailrocket
+923,431,Sports & Outdoors,Tent,Sport Tent,True,retailrocket
+924,378,Sports & Outdoors,Bicycle Helmet,Sport Bicycle Helmet,True,retailrocket
+925,1579,Beauty & Health,Vitamins,Lite Vitamins,True,retailrocket
+926,1600,Toys & Games,Puzzle,Sport Puzzle,True,retailrocket
+927,1482,Electronics,Keyboard,Vintage Keyboard,True,retailrocket
+928,1532,Pet Supplies,Pet Bed,Sport Pet Bed,True,retailrocket
+929,250,Beauty & Health,Lip Balm,Lite Lip Balm,True,retailrocket
+931,140,Fashion,Scarf,Lite Scarf,True,retailrocket
+932,140,Fashion,Jeans,Lite Jeans,True,retailrocket
+933,1224,Sports & Outdoors,Water Bottle,Sport Water Bottle,True,retailrocket
+934,653,Electronics,Monitor,Vintage Monitor,True,retailrocket
+935,140,Fashion,Jacket,Max Jacket,True,retailrocket
+936,1482,Electronics,Tablet,Vintage Tablet,True,retailrocket
+937,1532,Pet Supplies,Bird Feeder,Sport Bird Feeder,True,retailrocket
+938,1532,Pet Supplies,Fish Tank Filter,Sport Fish Tank Filter,True,retailrocket
+939,395,Home & Kitchen,Kettle,Comfort Kettle,True,retailrocket
+940,140,Fashion,Sneakers,Max Sneakers,True,retailrocket
+941,1532,Pet Supplies,Pet Bowl,Sport Pet Bowl,True,retailrocket
+942,1600,Toys & Games,Board Game,Sport Board Game,True,retailrocket
+943,378,Sports & Outdoors,Running Shoes,Sport Running Shoes,True,retailrocket
+944,1600,Toys & Games,Building Blocks,Sport Building Blocks,True,retailrocket
+945,653,Electronics,Smartwatch,Vintage Smartwatch,True,retailrocket
+946,653,Electronics,Headphones,Lite Headphones,True,retailrocket
+947,1532,Pet Supplies,Chew Toy,Sport Chew Toy,True,retailrocket
+948,653,Electronics,Charger,Lite Charger,True,retailrocket
+949,1579,Beauty & Health,Razor,Lite Razor,True,retailrocket
+950,1600,Toys & Games,Doll,Sport Doll,True,retailrocket
+951,140,Fashion,Backpack,Max Backpack,True,retailrocket
+952,431,Sports & Outdoors,Sleeping Bag,Sport Sleeping Bag,True,retailrocket
+953,250,Beauty & Health,Sunscreen,Lite Sunscreen,True,retailrocket
+954,1579,Beauty & Health,Face Cream,Max Face Cream,True,retailrocket
+955,140,Fashion,Dress,Max Dress,True,retailrocket
+956,1482,Electronics,Speaker,Lite Speaker,True,retailrocket
+957,1532,Pet Supplies,Pet Carrier,Sport Pet Carrier,True,retailrocket
+958,1600,Toys & Games,Remote Car,Sport Remote Car,True,retailrocket
+959,140,Fashion,Watch,Max Watch,True,retailrocket
+960,1532,Pet Supplies,Dog Leash,Home Dog Leash,True,retailrocket
+961,755,Electronics,Camera,Lite Camera,True,retailrocket
+962,653,Electronics,Keyboard,Lite Keyboard,True,retailrocket
+963,653,Electronics,Monitor,Lite Monitor,True,retailrocket
+964,803,Garden & Tools,Toolbox,Premium Toolbox,True,retailrocket
+965,1579,Beauty & Health,Shampoo,Max Shampoo,True,retailrocket
+966,395,Home & Kitchen,Pillow,Comfort Pillow,True,retailrocket
+967,378,Sports & Outdoors,Jump Rope,Sport Jump Rope,True,retailrocket
+968,1600,Toys & Games,Plush Bear,Sport Plush Bear,True,retailrocket
+969,1600,Toys & Games,Art Set,Sport Art Set,True,retailrocket
+970,250,Beauty & Health,Perfume,Max Perfume,True,retailrocket
+971,1600,Toys & Games,Card Game,Sport Card Game,True,retailrocket
+972,1482,Electronics,Tablet,Lite Tablet,True,retailrocket
+973,1532,Pet Supplies,Cat Toy,Home Cat Toy,True,retailrocket
+975,140,Fashion,Sunglasses,Max Sunglasses,True,retailrocket
+976,431,Sports & Outdoors,Yoga Mat,Home Yoga Mat,True,retailrocket
+977,1224,Sports & Outdoors,Dumbbells,Home Dumbbells,True,retailrocket
+978,1600,Toys & Games,Puzzle,Home Puzzle,True,retailrocket
+979,140,Fashion,Scarf,Max Scarf,True,retailrocket
+980,1532,Pet Supplies,Pet Bed,Home Pet Bed,True,retailrocket
+981,1579,Beauty & Health,Hair Dryer,Max Hair Dryer,True,retailrocket
+982,250,Beauty & Health,Vitamins,Max Vitamins,True,retailrocket
+983,140,Fashion,Jeans,Max Jeans,True,retailrocket
+984,140,Fashion,Jacket,Prime Jacket,True,retailrocket
+985,1698,Beauty & Health,Lip Balm,Max Lip Balm,True,retailrocket
+986,1532,Pet Supplies,Bird Feeder,Home Bird Feeder,True,retailrocket
+987,1482,Electronics,Smartwatch,Lite Smartwatch,True,retailrocket
+988,378,Sports & Outdoors,Tent,Home Tent,True,retailrocket
+989,1579,Beauty & Health,Razor,Max Razor,True,retailrocket
+990,250,Beauty & Health,Sunscreen,Max Sunscreen,True,retailrocket
+991,431,Sports & Outdoors,Bicycle Helmet,Home Bicycle Helmet,True,retailrocket
+992,679,Pet Supplies,Fish Tank Filter,Home Fish Tank Filter,True,retailrocket
+993,755,Electronics,Headphones,Max Headphones,True,retailrocket
+994,755,Electronics,Charger,Max Charger,True,retailrocket
+995,1600,Toys & Games,Board Game,Home Board Game,True,retailrocket
+996,431,Sports & Outdoors,Water Bottle,Home Water Bottle,True,retailrocket
+997,1600,Toys & Games,Building Blocks,Home Building Blocks,True,retailrocket
+998,653,Electronics,Speaker,Max Speaker,True,retailrocket
+999,395,Home & Kitchen,Curtains,Comfort Curtains,True,retailrocket
+1000,653,Electronics,Camera,Max Camera,True,retailrocket
+1001,653,Electronics,Keyboard,Max Keyboard,True,retailrocket
+1002,1482,Electronics,Monitor,Max Monitor,True,retailrocket
+1003,140,Fashion,Sneakers,Prime Sneakers,True,retailrocket
+1004,395,Home & Kitchen,Toaster,Comfort Toaster,True,retailrocket
+1005,1600,Toys & Games,Doll,Home Doll,True,retailrocket
+1006,1224,Sports & Outdoors,Running Shoes,Home Running Shoes,True,retailrocket
+1007,250,Beauty & Health,Face Cream,Prime Face Cream,True,retailrocket
+1008,679,Pet Supplies,Pet Bowl,Home Pet Bowl,True,retailrocket
+1009,431,Sports & Outdoors,Sleeping Bag,Home Sleeping Bag,True,retailrocket
+1010,755,Electronics,Tablet,Max Tablet,True,retailrocket
+1011,140,Fashion,Backpack,Prime Backpack,True,retailrocket
+1012,1532,Pet Supplies,Chew Toy,Home Chew Toy,True,retailrocket
+1013,1490,Automotive,Car Charger,Smart Car Charger,True,retailrocket
+1014,653,Electronics,Smartwatch,Max Smartwatch,True,retailrocket
+1015,140,Fashion,Dress,Prime Dress,True,retailrocket
+1016,1532,Pet Supplies,Pet Carrier,Home Pet Carrier,True,retailrocket
+1017,1482,Electronics,Headphones,Prime Headphones,True,retailrocket
+1018,1600,Toys & Games,Remote Car,Home Remote Car,True,retailrocket
+1019,791,Home & Kitchen,Blender,Sport Blender,True,retailrocket
+1020,140,Fashion,Watch,Prime Watch,True,retailrocket
+1021,1692,Automotive,Seat Cover,Smart Seat Cover,True,retailrocket
+1022,1600,Toys & Games,Plush Bear,Home Plush Bear,True,retailrocket
+1023,140,Fashion,Sunglasses,Prime Sunglasses,True,retailrocket
+1024,1600,Toys & Games,Art Set,Home Art Set,True,retailrocket
+1025,395,Home & Kitchen,Lamp,Sport Lamp,True,retailrocket
+1026,653,Electronics,Charger,Prime Charger,True,retailrocket
+1027,250,Beauty & Health,Shampoo,Prime Shampoo,True,retailrocket
+1028,140,Fashion,Scarf,Prime Scarf,True,retailrocket
+1029,140,Fashion,Jeans,Prime Jeans,True,retailrocket
+1030,1452,Toys & Games,Card Game,Home Card Game,True,retailrocket
+1031,395,Home & Kitchen,Cookware Set,Sport Cookware Set,True,retailrocket
+1032,395,Home & Kitchen,Vacuum,Sport Vacuum,True,retailrocket
+1033,1600,Toys & Games,Puzzle,Travel Puzzle,True,retailrocket
+1034,1698,Beauty & Health,Perfume,Prime Perfume,True,retailrocket
+1035,140,Fashion,Jacket,Essential Jacket,True,retailrocket
+1036,250,Beauty & Health,Hair Dryer,Prime Hair Dryer,True,retailrocket
+1037,1482,Electronics,Speaker,Prime Speaker,True,retailrocket
+1038,1532,Pet Supplies,Dog Leash,Travel Dog Leash,True,retailrocket
+1039,653,Electronics,Camera,Prime Camera,True,retailrocket
+1040,1600,Toys & Games,Board Game,Travel Board Game,True,retailrocket
+1041,1600,Toys & Games,Building Blocks,Travel Building Blocks,True,retailrocket
+1042,250,Beauty & Health,Vitamins,Prime Vitamins,True,retailrocket
+1043,1532,Pet Supplies,Cat Toy,Travel Cat Toy,True,retailrocket
+1044,250,Beauty & Health,Lip Balm,Prime Lip Balm,True,retailrocket
+1045,250,Beauty & Health,Razor,Prime Razor,True,retailrocket
+1047,653,Electronics,Keyboard,Prime Keyboard,True,retailrocket
+1048,140,Fashion,Sneakers,Essential Sneakers,True,retailrocket
+1049,1600,Toys & Games,Doll,Travel Doll,True,retailrocket
+1050,1224,Sports & Outdoors,Jump Rope,Home Jump Rope,True,retailrocket
+1051,140,Fashion,Backpack,Essential Backpack,True,retailrocket
+1052,653,Electronics,Monitor,Prime Monitor,True,retailrocket
+1053,1600,Toys & Games,Remote Car,Travel Remote Car,True,retailrocket
+1054,1600,Toys & Games,Plush Bear,Travel Plush Bear,True,retailrocket
+1055,140,Fashion,Dress,Essential Dress,True,retailrocket
+1056,1579,Beauty & Health,Sunscreen,Prime Sunscreen,True,retailrocket
+1057,1057,Books & Media,Notebook,Compact Notebook,True,retailrocket
+1058,140,Fashion,Watch,Essential Watch,True,retailrocket
+1059,378,Sports & Outdoors,Yoga Mat,Travel Yoga Mat,True,retailrocket
+1060,1490,Automotive,Floor Mats,Smart Floor Mats,True,retailrocket
+1061,431,Sports & Outdoors,Dumbbells,Travel Dumbbells,True,retailrocket
+1063,653,Electronics,Tablet,Prime Tablet,True,retailrocket
+1064,1452,Toys & Games,Art Set,Travel Art Set,True,retailrocket
+1065,250,Beauty & Health,Face Cream,Essential Face Cream,True,retailrocket
+1066,1532,Pet Supplies,Pet Bed,Travel Pet Bed,True,retailrocket
+1067,1698,Beauty & Health,Shampoo,Essential Shampoo,True,retailrocket
+1068,1532,Pet Supplies,Bird Feeder,Travel Bird Feeder,True,retailrocket
+1069,431,Sports & Outdoors,Tent,Travel Tent,True,retailrocket
+1070,791,Home & Kitchen,Kettle,Sport Kettle,True,retailrocket
+1071,140,Fashion,Sunglasses,Essential Sunglasses,True,retailrocket
+1072,1224,Sports & Outdoors,Bicycle Helmet,Travel Bicycle Helmet,True,retailrocket
+1073,1600,Toys & Games,Card Game,Travel Card Game,True,retailrocket
+1074,1600,Toys & Games,Puzzle,Family Puzzle,True,retailrocket
+1075,395,Home & Kitchen,Pillow,Sport Pillow,True,retailrocket
+1076,1532,Pet Supplies,Fish Tank Filter,Travel Fish Tank Filter,True,retailrocket
+1077,1224,Sports & Outdoors,Water Bottle,Travel Water Bottle,True,retailrocket
+1078,1482,Electronics,Smartwatch,Prime Smartwatch,True,retailrocket
+1079,395,Home & Kitchen,Curtains,Sport Curtains,True,retailrocket
+1080,653,Electronics,Headphones,Essential Headphones,True,retailrocket
+1081,1224,Sports & Outdoors,Running Shoes,Travel Running Shoes,True,retailrocket
+1082,803,Garden & Tools,Pruner,Premium Pruner,True,retailrocket
+1083,1532,Pet Supplies,Pet Bowl,Travel Pet Bowl,True,retailrocket
+1084,1579,Beauty & Health,Perfume,Essential Perfume,True,retailrocket
+1085,140,Fashion,Scarf,Essential Scarf,True,retailrocket
+1086,250,Beauty & Health,Hair Dryer,Essential Hair Dryer,True,retailrocket
+1087,653,Electronics,Charger,Essential Charger,True,retailrocket
+1088,1600,Toys & Games,Board Game,Family Board Game,True,retailrocket
+1089,395,Home & Kitchen,Toaster,Sport Toaster,True,retailrocket
+1090,1600,Toys & Games,Building Blocks,Family Building Blocks,True,retailrocket
+1091,1600,Toys & Games,Doll,Family Doll,True,retailrocket
+1092,1490,Automotive,Dash Camera,Smart Dash Camera,True,retailrocket
+1093,250,Beauty & Health,Vitamins,Essential Vitamins,True,retailrocket
+1094,140,Fashion,Jeans,Essential Jeans,True,retailrocket
+1095,140,Fashion,Jacket,Select Jacket,True,retailrocket
+1096,653,Electronics,Speaker,Essential Speaker,True,retailrocket
+1097,1224,Sports & Outdoors,Sleeping Bag,Travel Sleeping Bag,True,retailrocket
+1098,140,Fashion,Sneakers,Select Sneakers,True,retailrocket
+1099,140,Fashion,Backpack,Select Backpack,True,retailrocket
+1100,791,Home & Kitchen,Blender,Home Blender,True,retailrocket
+1101,250,Beauty & Health,Lip Balm,Essential Lip Balm,True,retailrocket
+1102,1600,Toys & Games,Remote Car,Family Remote Car,True,retailrocket
+1103,140,Fashion,Dress,Select Dress,True,retailrocket
+1104,140,Fashion,Watch,Select Watch,True,retailrocket
+1105,679,Pet Supplies,Chew Toy,Travel Chew Toy,True,retailrocket
+1106,140,Fashion,Sunglasses,Select Sunglasses,True,retailrocket
+1107,1600,Toys & Games,Plush Bear,Family Plush Bear,True,retailrocket
+1108,1600,Toys & Games,Art Set,Family Art Set,True,retailrocket
+1109,378,Sports & Outdoors,Jump Rope,Travel Jump Rope,True,retailrocket
+1110,653,Electronics,Camera,Essential Camera,True,retailrocket
+1111,1600,Toys & Games,Card Game,Family Card Game,True,retailrocket
+1112,679,Pet Supplies,Pet Carrier,Travel Pet Carrier,True,retailrocket
+1113,1532,Pet Supplies,Dog Leash,Family Dog Leash,True,retailrocket
+1114,1532,Pet Supplies,Cat Toy,Family Cat Toy,True,retailrocket
+1115,1579,Beauty & Health,Razor,Essential Razor,True,retailrocket
+1116,1490,Automotive,Tire Gauge,Smart Tire Gauge,True,retailrocket
+1117,1600,Toys & Games,Puzzle,Urban Puzzle,True,retailrocket
+1118,378,Sports & Outdoors,Yoga Mat,Family Yoga Mat,True,retailrocket
+1119,1600,Toys & Games,Board Game,Urban Board Game,True,retailrocket
+1120,250,Beauty & Health,Sunscreen,Essential Sunscreen,True,retailrocket
+1121,1532,Pet Supplies,Pet Bed,Family Pet Bed,True,retailrocket
+1122,250,Beauty & Health,Face Cream,Select Face Cream,True,retailrocket
+1124,653,Electronics,Keyboard,Essential Keyboard,True,retailrocket
+1125,1532,Pet Supplies,Bird Feeder,Family Bird Feeder,True,retailrocket
+1126,1698,Beauty & Health,Shampoo,Select Shampoo,True,retailrocket
+1127,1482,Electronics,Monitor,Essential Monitor,True,retailrocket
+1128,1698,Beauty & Health,Perfume,Select Perfume,True,retailrocket
+1129,250,Beauty & Health,Hair Dryer,Select Hair Dryer,True,retailrocket
+1130,395,Home & Kitchen,Lamp,Home Lamp,True,retailrocket
+1131,140,Fashion,Scarf,Select Scarf,True,retailrocket
+1132,1482,Electronics,Tablet,Essential Tablet,True,retailrocket
+1133,791,Home & Kitchen,Cookware Set,Home Cookware Set,True,retailrocket
+1134,1532,Pet Supplies,Fish Tank Filter,Family Fish Tank Filter,True,retailrocket
+1135,140,Fashion,Jeans,Select Jeans,True,retailrocket
+1136,140,Fashion,Jacket,Active Jacket,True,retailrocket
+1137,1600,Toys & Games,Building Blocks,Urban Building Blocks,True,retailrocket
+1138,140,Fashion,Sneakers,Active Sneakers,True,retailrocket
+1139,679,Pet Supplies,Pet Bowl,Family Pet Bowl,True,retailrocket
+1140,378,Sports & Outdoors,Dumbbells,Family Dumbbells,True,retailrocket
+1141,1600,Toys & Games,Doll,Urban Doll,True,retailrocket
+1142,250,Beauty & Health,Vitamins,Select Vitamins,True,retailrocket
+1143,679,Pet Supplies,Chew Toy,Family Chew Toy,True,retailrocket
+1144,653,Electronics,Smartwatch,Essential Smartwatch,True,retailrocket
+1145,1532,Pet Supplies,Pet Carrier,Family Pet Carrier,True,retailrocket
+1146,378,Sports & Outdoors,Tent,Family Tent,True,retailrocket
+1147,250,Beauty & Health,Lip Balm,Select Lip Balm,True,retailrocket
+1148,378,Sports & Outdoors,Bicycle Helmet,Family Bicycle Helmet,True,retailrocket
+1149,395,Home & Kitchen,Vacuum,Home Vacuum,True,retailrocket
+1150,140,Fashion,Backpack,Active Backpack,True,retailrocket
+1151,1600,Toys & Games,Remote Car,Urban Remote Car,True,retailrocket
+1152,1579,Beauty & Health,Razor,Select Razor,True,retailrocket
+1153,1532,Pet Supplies,Dog Leash,Urban Dog Leash,True,retailrocket
+1154,140,Fashion,Dress,Active Dress,True,retailrocket
+1155,653,Electronics,Headphones,Select Headphones,True,retailrocket
+1156,395,Home & Kitchen,Kettle,Home Kettle,True,retailrocket
+1157,395,Home & Kitchen,Pillow,Home Pillow,True,retailrocket
+1159,1579,Beauty & Health,Sunscreen,Select Sunscreen,True,retailrocket
+1160,1698,Beauty & Health,Face Cream,Active Face Cream,True,retailrocket
+1161,791,Home & Kitchen,Curtains,Home Curtains,True,retailrocket
+1162,1224,Sports & Outdoors,Water Bottle,Family Water Bottle,True,retailrocket
+1163,395,Home & Kitchen,Toaster,Home Toaster,True,retailrocket
+1164,1532,Pet Supplies,Cat Toy,Urban Cat Toy,True,retailrocket
+1165,1482,Electronics,Charger,Select Charger,True,retailrocket
+1166,1579,Beauty & Health,Shampoo,Active Shampoo,True,retailrocket
+1167,250,Beauty & Health,Perfume,Active Perfume,True,retailrocket
+1168,1600,Toys & Games,Plush Bear,Urban Plush Bear,True,retailrocket
+1169,653,Electronics,Speaker,Select Speaker,True,retailrocket
+1170,1579,Beauty & Health,Hair Dryer,Active Hair Dryer,True,retailrocket
+1171,1532,Pet Supplies,Pet Bed,Urban Pet Bed,True,retailrocket
+1172,378,Sports & Outdoors,Running Shoes,Family Running Shoes,True,retailrocket
+1173,140,Fashion,Watch,Active Watch,True,retailrocket
+1174,1532,Pet Supplies,Bird Feeder,Urban Bird Feeder,True,retailrocket
+1175,1579,Beauty & Health,Vitamins,Active Vitamins,True,retailrocket
+1176,1600,Toys & Games,Art Set,Urban Art Set,True,retailrocket
+1177,1482,Electronics,Camera,Select Camera,True,retailrocket
+1178,140,Fashion,Sunglasses,Active Sunglasses,True,retailrocket
+1179,1600,Toys & Games,Card Game,Urban Card Game,True,retailrocket
+1180,653,Electronics,Keyboard,Select Keyboard,True,retailrocket
+1181,140,Fashion,Scarf,Active Scarf,True,retailrocket
+1182,1182,Home & Kitchen,Blender,Travel Blender,True,retailrocket
+1183,395,Home & Kitchen,Lamp,Travel Lamp,True,retailrocket
+1184,1600,Toys & Games,Puzzle,Modern Puzzle,True,retailrocket
+1185,250,Beauty & Health,Lip Balm,Active Lip Balm,True,retailrocket
+1186,653,Electronics,Monitor,Select Monitor,True,retailrocket
+1187,1224,Sports & Outdoors,Sleeping Bag,Family Sleeping Bag,True,retailrocket
+1188,1490,Automotive,Car Vacuum,Smart Car Vacuum,True,retailrocket
+1189,653,Electronics,Tablet,Select Tablet,True,retailrocket
+1190,250,Beauty & Health,Razor,Active Razor,True,retailrocket
+1191,140,Fashion,Jeans,Active Jeans,True,retailrocket
+1192,140,Fashion,Jacket,Fresh Jacket,True,retailrocket
+1193,1579,Beauty & Health,Sunscreen,Active Sunscreen,True,retailrocket
+1194,1579,Beauty & Health,Face Cream,Fresh Face Cream,True,retailrocket
+1195,395,Home & Kitchen,Cookware Set,Travel Cookware Set,True,retailrocket
+1196,140,Fashion,Sneakers,Fresh Sneakers,True,retailrocket
+1197,140,Fashion,Backpack,Fresh Backpack,True,retailrocket
+1198,1692,Automotive,Phone Holder,Smart Phone Holder,True,retailrocket
+1199,679,Pet Supplies,Fish Tank Filter,Urban Fish Tank Filter,True,retailrocket
+1200,395,Home & Kitchen,Vacuum,Travel Vacuum,True,retailrocket
+1201,1600,Toys & Games,Board Game,Modern Board Game,True,retailrocket
+1202,653,Electronics,Smartwatch,Select Smartwatch,True,retailrocket
+1203,755,Electronics,Headphones,Active Headphones,True,retailrocket
+1204,679,Pet Supplies,Pet Bowl,Urban Pet Bowl,True,retailrocket
+1205,1600,Toys & Games,Building Blocks,Modern Building Blocks,True,retailrocket
+1206,1579,Beauty & Health,Shampoo,Fresh Shampoo,True,retailrocket
+1207,1600,Toys & Games,Doll,Modern Doll,True,retailrocket
+1208,140,Fashion,Dress,Fresh Dress,True,retailrocket
+1209,140,Fashion,Watch,Fresh Watch,True,retailrocket
+1210,431,Sports & Outdoors,Jump Rope,Family Jump Rope,True,retailrocket
+1211,1579,Beauty & Health,Perfume,Fresh Perfume,True,retailrocket
+1212,140,Fashion,Sunglasses,Fresh Sunglasses,True,retailrocket
+1213,140,Fashion,Scarf,Fresh Scarf,True,retailrocket
+1214,653,Electronics,Charger,Active Charger,True,retailrocket
+1215,679,Pet Supplies,Chew Toy,Urban Chew Toy,True,retailrocket
+1216,859,Fashion,Jeans,Fresh Jeans,True,retailrocket
+1217,679,Pet Supplies,Pet Carrier,Urban Pet Carrier,True,retailrocket
+1218,378,Sports & Outdoors,Yoga Mat,Urban Yoga Mat,True,retailrocket
+1219,140,Fashion,Jacket,Bright Jacket,True,retailrocket
+1220,1600,Toys & Games,Remote Car,Modern Remote Car,True,retailrocket
+1221,1482,Electronics,Speaker,Active Speaker,True,retailrocket
+1222,1224,Sports & Outdoors,Dumbbells,Urban Dumbbells,True,retailrocket
+1223,1579,Beauty & Health,Hair Dryer,Fresh Hair Dryer,True,retailrocket
+1224,1224,Sports & Outdoors,Tent,Urban Tent,True,retailrocket
+1225,1579,Beauty & Health,Vitamins,Fresh Vitamins,True,retailrocket
+1226,250,Beauty & Health,Lip Balm,Fresh Lip Balm,True,retailrocket
+1227,140,Fashion,Sneakers,Bright Sneakers,True,retailrocket
+1228,140,Fashion,Backpack,Bright Backpack,True,retailrocket
+1229,791,Home & Kitchen,Kettle,Travel Kettle,True,retailrocket
+1230,1579,Beauty & Health,Razor,Fresh Razor,True,retailrocket
+1231,679,Pet Supplies,Dog Leash,Modern Dog Leash,True,retailrocket
+1232,1579,Beauty & Health,Sunscreen,Fresh Sunscreen,True,retailrocket
+1233,395,Home & Kitchen,Pillow,Travel Pillow,True,retailrocket
+1234,653,Electronics,Camera,Active Camera,True,retailrocket
+1235,1394,Books & Media,Planner,Compact Planner,True,retailrocket
+1236,1600,Toys & Games,Plush Bear,Modern Plush Bear,True,retailrocket
+1237,1482,Electronics,Keyboard,Active Keyboard,True,retailrocket
+1238,1600,Toys & Games,Art Set,Modern Art Set,True,retailrocket
+1239,653,Electronics,Monitor,Active Monitor,True,retailrocket
+1240,1224,Sports & Outdoors,Bicycle Helmet,Urban Bicycle Helmet,True,retailrocket
+1241,653,Electronics,Tablet,Active Tablet,True,retailrocket
+1242,1579,Beauty & Health,Face Cream,Bright Face Cream,True,retailrocket
+1243,1600,Toys & Games,Card Game,Modern Card Game,True,retailrocket
+1244,1532,Pet Supplies,Cat Toy,Modern Cat Toy,True,retailrocket
+1245,431,Sports & Outdoors,Water Bottle,Urban Water Bottle,True,retailrocket
+1246,653,Electronics,Smartwatch,Active Smartwatch,True,retailrocket
+1247,1482,Electronics,Headphones,Fresh Headphones,True,retailrocket
+1248,140,Fashion,Dress,Bright Dress,True,retailrocket
+1249,1482,Electronics,Charger,Fresh Charger,True,retailrocket
+1250,791,Home & Kitchen,Curtains,Travel Curtains,True,retailrocket
+1251,653,Electronics,Speaker,Fresh Speaker,True,retailrocket
+1252,250,Beauty & Health,Shampoo,Bright Shampoo,True,retailrocket
+1253,653,Electronics,Camera,Fresh Camera,True,retailrocket
+1254,1600,Toys & Games,Puzzle,Vintage Puzzle,True,retailrocket
+1255,791,Home & Kitchen,Toaster,Travel Toaster,True,retailrocket
+1256,1482,Electronics,Keyboard,Fresh Keyboard,True,retailrocket
+1257,395,Home & Kitchen,Blender,Family Blender,True,retailrocket
+1258,140,Fashion,Watch,Bright Watch,True,retailrocket
+1259,431,Sports & Outdoors,Running Shoes,Urban Running Shoes,True,retailrocket
+1260,1600,Toys & Games,Board Game,Vintage Board Game,True,retailrocket
+1261,1490,Automotive,Wax Kit,Smart Wax Kit,True,retailrocket
+1262,1394,Books & Media,Comic Book,Compact Comic Book,True,retailrocket
+1263,140,Fashion,Sunglasses,Bright Sunglasses,True,retailrocket
+1264,250,Beauty & Health,Perfume,Bright Perfume,True,retailrocket
+1265,140,Fashion,Scarf,Bright Scarf,True,retailrocket
+1266,1532,Pet Supplies,Pet Bed,Modern Pet Bed,True,retailrocket
+1267,1692,Automotive,Car Charger,Eco Car Charger,True,retailrocket
+1268,378,Sports & Outdoors,Sleeping Bag,Urban Sleeping Bag,True,retailrocket
+1269,791,Home & Kitchen,Lamp,Family Lamp,True,retailrocket
+1270,653,Electronics,Monitor,Fresh Monitor,True,retailrocket
+1271,431,Sports & Outdoors,Jump Rope,Urban Jump Rope,True,retailrocket
+1272,140,Fashion,Jeans,Bright Jeans,True,retailrocket
+1273,1600,Toys & Games,Building Blocks,Vintage Building Blocks,True,retailrocket
+1274,395,Home & Kitchen,Cookware Set,Family Cookware Set,True,retailrocket
+1275,1600,Toys & Games,Doll,Vintage Doll,True,retailrocket
+1276,378,Sports & Outdoors,Yoga Mat,Modern Yoga Mat,True,retailrocket
+1277,653,Electronics,Tablet,Fresh Tablet,True,retailrocket
+1278,395,Home & Kitchen,Vacuum,Family Vacuum,True,retailrocket
+1279,1600,Toys & Games,Remote Car,Vintage Remote Car,True,retailrocket
+1280,1482,Electronics,Smartwatch,Fresh Smartwatch,True,retailrocket
+1281,653,Electronics,Headphones,Bright Headphones,True,retailrocket
+1282,1490,Automotive,Seat Cover,Eco Seat Cover,True,retailrocket
+1283,1579,Beauty & Health,Hair Dryer,Bright Hair Dryer,True,retailrocket
+1284,140,Fashion,Jacket,Quiet Jacket,True,retailrocket
+1285,431,Sports & Outdoors,Dumbbells,Modern Dumbbells,True,retailrocket
+1286,1482,Electronics,Charger,Bright Charger,True,retailrocket
+1287,431,Sports & Outdoors,Tent,Modern Tent,True,retailrocket
+1288,1182,Home & Kitchen,Kettle,Family Kettle,True,retailrocket
+1289,1579,Beauty & Health,Vitamins,Bright Vitamins,True,retailrocket
+1290,140,Fashion,Sneakers,Quiet Sneakers,True,retailrocket
+1291,1579,Beauty & Health,Lip Balm,Bright Lip Balm,True,retailrocket
+1292,140,Fashion,Backpack,Quiet Backpack,True,retailrocket
+1293,395,Home & Kitchen,Pillow,Family Pillow,True,retailrocket
+1294,395,Home & Kitchen,Curtains,Family Curtains,True,retailrocket
+1295,653,Electronics,Speaker,Bright Speaker,True,retailrocket
+1296,140,Fashion,Dress,Quiet Dress,True,retailrocket
+1297,659,Garden & Tools,Ladder,Premium Ladder,True,retailrocket
+1298,140,Fashion,Watch,Quiet Watch,True,retailrocket
+1299,1532,Pet Supplies,Bird Feeder,Modern Bird Feeder,True,retailrocket
+1300,653,Electronics,Camera,Bright Camera,True,retailrocket
+1301,1698,Beauty & Health,Razor,Bright Razor,True,retailrocket
+1302,1600,Toys & Games,Plush Bear,Vintage Plush Bear,True,retailrocket
+1303,1600,Toys & Games,Art Set,Vintage Art Set,True,retailrocket
+1304,431,Sports & Outdoors,Bicycle Helmet,Modern Bicycle Helmet,True,retailrocket
+1305,653,Electronics,Keyboard,Bright Keyboard,True,retailrocket
+1306,1532,Pet Supplies,Fish Tank Filter,Modern Fish Tank Filter,True,retailrocket
+1307,250,Beauty & Health,Sunscreen,Bright Sunscreen,True,retailrocket
+1308,140,Fashion,Sunglasses,Quiet Sunglasses,True,retailrocket
+1309,1579,Beauty & Health,Face Cream,Quiet Face Cream,True,retailrocket
+1310,431,Sports & Outdoors,Water Bottle,Modern Water Bottle,True,retailrocket
+1311,140,Fashion,Scarf,Quiet Scarf,True,retailrocket
+1312,395,Home & Kitchen,Toaster,Family Toaster,True,retailrocket
+1313,1600,Toys & Games,Card Game,Vintage Card Game,True,retailrocket
+1314,140,Fashion,Jeans,Quiet Jeans,True,retailrocket
+1315,1692,Automotive,Floor Mats,Eco Floor Mats,True,retailrocket
+1316,1532,Pet Supplies,Pet Bowl,Modern Pet Bowl,True,retailrocket
+1317,140,Fashion,Jacket,Swift Jacket,True,retailrocket
+1318,1532,Pet Supplies,Chew Toy,Modern Chew Toy,True,retailrocket
+1320,1482,Electronics,Monitor,Bright Monitor,True,retailrocket
+1321,1600,Toys & Games,Puzzle,Lite Puzzle,True,retailrocket
+1322,1600,Toys & Games,Board Game,Lite Board Game,True,retailrocket
+1323,395,Home & Kitchen,Blender,Urban Blender,True,retailrocket
+1324,140,Fashion,Sneakers,Swift Sneakers,True,retailrocket
+1325,1600,Toys & Games,Building Blocks,Lite Building Blocks,True,retailrocket
+1326,803,Garden & Tools,Flashlight,Premium Flashlight,True,retailrocket
+1327,1057,Books & Media,Dictionary,Compact Dictionary,True,retailrocket
+1328,395,Home & Kitchen,Lamp,Urban Lamp,True,retailrocket
+1329,140,Fashion,Backpack,Swift Backpack,True,retailrocket
+1330,653,Electronics,Tablet,Bright Tablet,True,retailrocket
+1331,1600,Toys & Games,Doll,Lite Doll,True,retailrocket
+1332,1490,Automotive,Dash Camera,Eco Dash Camera,True,retailrocket
+1333,653,Electronics,Smartwatch,Bright Smartwatch,True,retailrocket
+1334,1579,Beauty & Health,Shampoo,Quiet Shampoo,True,retailrocket
+1335,250,Beauty & Health,Perfume,Quiet Perfume,True,retailrocket
+1336,140,Fashion,Dress,Swift Dress,True,retailrocket
+1337,140,Fashion,Watch,Swift Watch,True,retailrocket
+1338,395,Home & Kitchen,Cookware Set,Urban Cookware Set,True,retailrocket
+1339,140,Fashion,Sunglasses,Swift Sunglasses,True,retailrocket
+1340,653,Electronics,Headphones,Quiet Headphones,True,retailrocket
+1341,1532,Pet Supplies,Pet Carrier,Modern Pet Carrier,True,retailrocket
+1342,431,Sports & Outdoors,Running Shoes,Modern Running Shoes,True,retailrocket
+1343,1490,Automotive,Tire Gauge,Eco Tire Gauge,True,retailrocket
+1344,395,Home & Kitchen,Vacuum,Urban Vacuum,True,retailrocket
+1345,1579,Beauty & Health,Hair Dryer,Quiet Hair Dryer,True,retailrocket
+1346,1698,Beauty & Health,Vitamins,Quiet Vitamins,True,retailrocket
+1347,140,Fashion,Scarf,Swift Scarf,True,retailrocket
+1348,653,Electronics,Charger,Quiet Charger,True,retailrocket
+1349,140,Fashion,Jeans,Swift Jeans,True,retailrocket
+1350,1057,Books & Media,Audiobook,Compact Audiobook,True,retailrocket
+1351,250,Beauty & Health,Lip Balm,Quiet Lip Balm,True,retailrocket
+1352,140,Fashion,Jacket,Royal Jacket,True,retailrocket
+1353,1579,Beauty & Health,Razor,Quiet Razor,True,retailrocket
+1354,1532,Pet Supplies,Dog Leash,Vintage Dog Leash,True,retailrocket
+1355,653,Electronics,Speaker,Quiet Speaker,True,retailrocket
+1356,1532,Pet Supplies,Cat Toy,Vintage Cat Toy,True,retailrocket
+1357,1490,Automotive,Car Vacuum,Eco Car Vacuum,True,retailrocket
+1358,431,Sports & Outdoors,Sleeping Bag,Modern Sleeping Bag,True,retailrocket
+1359,679,Pet Supplies,Pet Bed,Vintage Pet Bed,True,retailrocket
+1360,1482,Electronics,Camera,Quiet Camera,True,retailrocket
+1361,250,Beauty & Health,Sunscreen,Quiet Sunscreen,True,retailrocket
+1362,791,Home & Kitchen,Kettle,Urban Kettle,True,retailrocket
+1363,140,Fashion,Sneakers,Royal Sneakers,True,retailrocket
+1364,1224,Sports & Outdoors,Jump Rope,Modern Jump Rope,True,retailrocket
+1365,250,Beauty & Health,Face Cream,Swift Face Cream,True,retailrocket
+1366,140,Fashion,Backpack,Royal Backpack,True,retailrocket
+1367,140,Fashion,Dress,Royal Dress,True,retailrocket
+1368,140,Fashion,Watch,Royal Watch,True,retailrocket
+1369,1579,Beauty & Health,Shampoo,Swift Shampoo,True,retailrocket
+1370,1600,Toys & Games,Remote Car,Lite Remote Car,True,retailrocket
+1371,140,Fashion,Sunglasses,Royal Sunglasses,True,retailrocket
+1372,395,Home & Kitchen,Pillow,Urban Pillow,True,retailrocket
+1373,1600,Toys & Games,Plush Bear,Lite Plush Bear,True,retailrocket
+1374,395,Home & Kitchen,Curtains,Urban Curtains,True,retailrocket
+1375,140,Fashion,Scarf,Royal Scarf,True,retailrocket
+1376,1532,Pet Supplies,Bird Feeder,Vintage Bird Feeder,True,retailrocket
+1377,1490,Automotive,Phone Holder,Eco Phone Holder,True,retailrocket
+1378,140,Fashion,Jeans,Royal Jeans,True,retailrocket
+1379,1600,Toys & Games,Art Set,Lite Art Set,True,retailrocket
+1380,1600,Toys & Games,Card Game,Lite Card Game,True,retailrocket
+1381,1579,Beauty & Health,Perfume,Swift Perfume,True,retailrocket
+1382,1698,Beauty & Health,Hair Dryer,Swift Hair Dryer,True,retailrocket
+1383,140,Fashion,Jacket,Classic Jacket 2,True,retailrocket
+1384,140,Fashion,Sneakers,Classic Sneakers 2,True,retailrocket
+1385,653,Electronics,Keyboard,Quiet Keyboard,True,retailrocket
+1386,140,Fashion,Backpack,Classic Backpack 2,True,retailrocket
+1387,1224,Sports & Outdoors,Yoga Mat,Vintage Yoga Mat,True,retailrocket
+1388,1482,Electronics,Monitor,Quiet Monitor,True,retailrocket
+1389,395,Home & Kitchen,Toaster,Urban Toaster,True,retailrocket
+1390,140,Fashion,Dress,Classic Dress 2,True,retailrocket
+1391,1057,Books & Media,Calendar,Compact Calendar,True,retailrocket
+1392,1600,Toys & Games,Puzzle,Max Puzzle,True,retailrocket
+1393,140,Fashion,Watch,Classic Watch 2,True,retailrocket
+1394,1394,Books & Media,Novel,Deluxe Novel,True,retailrocket
+1395,1532,Pet Supplies,Fish Tank Filter,Vintage Fish Tank Filter,True,retailrocket
+1396,395,Home & Kitchen,Blender,Modern Blender,True,retailrocket
+1397,378,Sports & Outdoors,Dumbbells,Vintage Dumbbells,True,retailrocket
+1398,1482,Electronics,Tablet,Quiet Tablet,True,retailrocket
+1399,395,Home & Kitchen,Lamp,Modern Lamp,True,retailrocket
+1400,140,Fashion,Sunglasses,Classic Sunglasses 2,True,retailrocket
+1401,1600,Toys & Games,Board Game,Max Board Game,True,retailrocket
+1402,250,Beauty & Health,Vitamins,Swift Vitamins,True,retailrocket
+1403,1224,Sports & Outdoors,Tent,Vintage Tent,True,retailrocket
+1404,1482,Electronics,Smartwatch,Quiet Smartwatch,True,retailrocket
+1405,791,Home & Kitchen,Cookware Set,Modern Cookware Set,True,retailrocket
+1406,378,Sports & Outdoors,Bicycle Helmet,Vintage Bicycle Helmet,True,retailrocket
+1407,395,Home & Kitchen,Vacuum,Modern Vacuum,True,retailrocket
+1408,431,Sports & Outdoors,Water Bottle,Vintage Water Bottle,True,retailrocket
+1409,1532,Pet Supplies,Pet Bowl,Vintage Pet Bowl,True,retailrocket
+1410,791,Home & Kitchen,Kettle,Modern Kettle,True,retailrocket
+1411,140,Fashion,Scarf,Classic Scarf 2,True,retailrocket
+1412,1532,Pet Supplies,Chew Toy,Vintage Chew Toy,True,retailrocket
+1413,1600,Toys & Games,Building Blocks,Max Building Blocks,True,retailrocket
+1414,1482,Electronics,Headphones,Swift Headphones,True,retailrocket
+1415,1600,Toys & Games,Doll,Max Doll,True,retailrocket
+1416,378,Sports & Outdoors,Running Shoes,Vintage Running Shoes,True,retailrocket
+1417,140,Fashion,Jeans,Classic Jeans 2,True,retailrocket
+1418,1600,Toys & Games,Remote Car,Max Remote Car,True,retailrocket
+1419,431,Sports & Outdoors,Sleeping Bag,Vintage Sleeping Bag,True,retailrocket
+1420,250,Beauty & Health,Lip Balm,Swift Lip Balm,True,retailrocket
+1421,1224,Sports & Outdoors,Jump Rope,Vintage Jump Rope,True,retailrocket
+1422,140,Fashion,Jacket,Premium Jacket 2,True,retailrocket
+1423,791,Home & Kitchen,Pillow,Modern Pillow,True,retailrocket
+1424,679,Pet Supplies,Pet Carrier,Vintage Pet Carrier,True,retailrocket
+1425,1452,Toys & Games,Plush Bear,Max Plush Bear,True,retailrocket
+1426,1482,Electronics,Charger,Swift Charger,True,retailrocket
+1427,431,Sports & Outdoors,Yoga Mat,Lite Yoga Mat,True,retailrocket
+1429,1482,Electronics,Speaker,Swift Speaker,True,retailrocket
+1430,140,Fashion,Sneakers,Premium Sneakers 2,True,retailrocket
+1431,1532,Pet Supplies,Dog Leash,Lite Dog Leash,True,retailrocket
+1432,431,Sports & Outdoors,Dumbbells,Lite Dumbbells,True,retailrocket
+1433,653,Electronics,Camera,Swift Camera,True,retailrocket
+1434,140,Fashion,Backpack,Premium Backpack 2,True,retailrocket
+1435,140,Fashion,Dress,Premium Dress 2,True,retailrocket
+1436,679,Pet Supplies,Cat Toy,Lite Cat Toy,True,retailrocket
+1437,653,Electronics,Keyboard,Swift Keyboard,True,retailrocket
+1438,1579,Beauty & Health,Razor,Swift Razor,True,retailrocket
+1439,755,Electronics,Monitor,Swift Monitor,True,retailrocket
+1440,250,Beauty & Health,Sunscreen,Swift Sunscreen,True,retailrocket
+1441,1224,Sports & Outdoors,Tent,Lite Tent,True,retailrocket
+1442,1600,Toys & Games,Art Set,Max Art Set,True,retailrocket
+1443,1224,Sports & Outdoors,Bicycle Helmet,Lite Bicycle Helmet,True,retailrocket
+1444,1490,Automotive,Wax Kit,Eco Wax Kit,True,retailrocket
+1445,1532,Pet Supplies,Pet Bed,Lite Pet Bed,True,retailrocket
+1447,653,Electronics,Tablet,Swift Tablet,True,retailrocket
+1448,1490,Automotive,Car Charger,Portable Car Charger,True,retailrocket
+1449,755,Electronics,Smartwatch,Swift Smartwatch,True,retailrocket
+1450,140,Fashion,Watch,Premium Watch 2,True,retailrocket
+1451,1600,Toys & Games,Card Game,Max Card Game,True,retailrocket
+1452,1452,Toys & Games,Puzzle,Prime Puzzle,True,retailrocket
+1453,1579,Beauty & Health,Face Cream,Royal Face Cream,True,retailrocket
+1454,653,Electronics,Headphones,Royal Headphones,True,retailrocket
+1455,1532,Pet Supplies,Bird Feeder,Lite Bird Feeder,True,retailrocket
+1456,653,Electronics,Charger,Royal Charger,True,retailrocket
+1457,140,Fashion,Sunglasses,Premium Sunglasses 2,True,retailrocket
+1458,140,Fashion,Scarf,Premium Scarf 2,True,retailrocket
+1459,653,Electronics,Speaker,Royal Speaker,True,retailrocket
+1460,1579,Beauty & Health,Shampoo,Royal Shampoo,True,retailrocket
+1461,679,Pet Supplies,Fish Tank Filter,Lite Fish Tank Filter,True,retailrocket
+1462,395,Home & Kitchen,Curtains,Modern Curtains,True,retailrocket
+1463,1600,Toys & Games,Board Game,Prime Board Game,True,retailrocket
+1464,140,Fashion,Jeans,Premium Jeans 2,True,retailrocket
+1465,653,Electronics,Camera,Royal Camera,True,retailrocket
+1466,1698,Beauty & Health,Perfume,Royal Perfume,True,retailrocket
+1467,140,Fashion,Jacket,Compact Jacket 2,True,retailrocket
+1468,140,Fashion,Sneakers,Compact Sneakers 2,True,retailrocket
+1469,395,Home & Kitchen,Toaster,Modern Toaster,True,retailrocket
+1470,1698,Beauty & Health,Hair Dryer,Royal Hair Dryer,True,retailrocket
+1471,1600,Toys & Games,Building Blocks,Prime Building Blocks,True,retailrocket
+1472,1482,Electronics,Keyboard,Royal Keyboard,True,retailrocket
+1473,859,Fashion,Backpack,Compact Backpack 2,True,retailrocket
+1474,1532,Pet Supplies,Pet Bowl,Lite Pet Bowl,True,retailrocket
+1475,1698,Beauty & Health,Vitamins,Royal Vitamins,True,retailrocket
+1476,1224,Sports & Outdoors,Water Bottle,Lite Water Bottle,True,retailrocket
+1477,1532,Pet Supplies,Chew Toy,Lite Chew Toy,True,retailrocket
+1478,1579,Beauty & Health,Lip Balm,Royal Lip Balm,True,retailrocket
+1479,378,Sports & Outdoors,Running Shoes,Lite Running Shoes,True,retailrocket
+1480,1482,Electronics,Monitor,Royal Monitor,True,retailrocket
+1481,1600,Toys & Games,Doll,Prime Doll,True,retailrocket
+1482,1482,Electronics,Tablet,Royal Tablet,True,retailrocket
+1483,395,Home & Kitchen,Blender,Vintage Blender,True,retailrocket
+1484,1698,Beauty & Health,Razor,Royal Razor,True,retailrocket
+1485,250,Beauty & Health,Sunscreen,Royal Sunscreen,True,retailrocket
+1486,140,Fashion,Dress,Compact Dress 2,True,retailrocket
+1487,140,Fashion,Watch,Compact Watch 2,True,retailrocket
+1488,431,Sports & Outdoors,Sleeping Bag,Lite Sleeping Bag,True,retailrocket
+1489,431,Sports & Outdoors,Jump Rope,Lite Jump Rope,True,retailrocket
+1490,1490,Automotive,Seat Cover,Portable Seat Cover,True,retailrocket
+1491,1224,Sports & Outdoors,Yoga Mat,Max Yoga Mat,True,retailrocket
+1492,1532,Pet Supplies,Pet Carrier,Lite Pet Carrier,True,retailrocket
+1493,1532,Pet Supplies,Dog Leash,Max Dog Leash,True,retailrocket
+1494,1600,Toys & Games,Remote Car,Prime Remote Car,True,retailrocket
+1495,791,Home & Kitchen,Lamp,Vintage Lamp,True,retailrocket
+1496,1600,Toys & Games,Plush Bear,Prime Plush Bear,True,retailrocket
+1497,1490,Automotive,Floor Mats,Portable Floor Mats,True,retailrocket
+1498,1600,Toys & Games,Art Set,Prime Art Set,True,retailrocket
+1499,653,Electronics,Smartwatch,Royal Smartwatch,True,retailrocket
+1500,140,Fashion,Sunglasses,Compact Sunglasses 2,True,retailrocket
+1501,1579,Beauty & Health,Face Cream,Classic Face Cream 2,True,retailrocket
+1502,1698,Beauty & Health,Shampoo,Classic Shampoo 2,True,retailrocket
+1503,1600,Toys & Games,Card Game,Prime Card Game,True,retailrocket
+1504,791,Home & Kitchen,Cookware Set,Vintage Cookware Set,True,retailrocket
+1505,140,Fashion,Scarf,Compact Scarf 2,True,retailrocket
+1506,1532,Pet Supplies,Cat Toy,Max Cat Toy,True,retailrocket
+1507,395,Home & Kitchen,Vacuum,Vintage Vacuum,True,retailrocket
+1508,1532,Pet Supplies,Pet Bed,Max Pet Bed,True,retailrocket
+1509,140,Fashion,Jeans,Compact Jeans 2,True,retailrocket
+1510,431,Sports & Outdoors,Dumbbells,Max Dumbbells,True,retailrocket
+1511,140,Fashion,Jacket,Deluxe Jacket 2,True,retailrocket
+1512,250,Beauty & Health,Perfume,Classic Perfume 2,True,retailrocket
+1513,378,Sports & Outdoors,Tent,Max Tent,True,retailrocket
+1514,140,Fashion,Sneakers,Deluxe Sneakers 2,True,retailrocket
+1515,140,Fashion,Backpack,Deluxe Backpack 2,True,retailrocket
+1516,1600,Toys & Games,Puzzle,Essential Puzzle,True,retailrocket
+1517,1579,Beauty & Health,Hair Dryer,Classic Hair Dryer 2,True,retailrocket
+1518,1579,Beauty & Health,Vitamins,Classic Vitamins 2,True,retailrocket
+1519,140,Fashion,Dress,Deluxe Dress 2,True,retailrocket
+1520,679,Pet Supplies,Bird Feeder,Max Bird Feeder,True,retailrocket
+1521,1600,Toys & Games,Board Game,Essential Board Game,True,retailrocket
+1522,431,Sports & Outdoors,Bicycle Helmet,Max Bicycle Helmet,True,retailrocket
+1523,1600,Toys & Games,Building Blocks,Essential Building Blocks,True,retailrocket
+1524,1579,Beauty & Health,Lip Balm,Classic Lip Balm 2,True,retailrocket
+1525,1490,Automotive,Dash Camera,Portable Dash Camera,True,retailrocket
+1526,395,Home & Kitchen,Kettle,Vintage Kettle,True,retailrocket
+1527,1579,Beauty & Health,Razor,Classic Razor 2,True,retailrocket
+1528,1482,Electronics,Headphones,Classic Headphones 2,True,retailrocket
+1529,140,Fashion,Watch,Deluxe Watch 2,True,retailrocket
+1530,1482,Electronics,Charger,Classic Charger 2,True,retailrocket
+1531,1482,Electronics,Speaker,Classic Speaker 2,True,retailrocket
+1532,1532,Pet Supplies,Fish Tank Filter,Max Fish Tank Filter,True,retailrocket
+1533,791,Home & Kitchen,Pillow,Vintage Pillow,True,retailrocket
+1534,140,Fashion,Sunglasses,Deluxe Sunglasses 2,True,retailrocket
+1535,378,Sports & Outdoors,Water Bottle,Max Water Bottle,True,retailrocket
+1536,1579,Beauty & Health,Sunscreen,Classic Sunscreen 2,True,retailrocket
+1537,378,Sports & Outdoors,Running Shoes,Max Running Shoes,True,retailrocket
+1539,250,Beauty & Health,Face Cream,Premium Face Cream 2,True,retailrocket
+1540,140,Fashion,Scarf,Deluxe Scarf 2,True,retailrocket
+1541,1600,Toys & Games,Doll,Essential Doll,True,retailrocket
+1542,140,Fashion,Jeans,Deluxe Jeans 2,True,retailrocket
+1543,140,Fashion,Jacket,Smart Jacket 2,True,retailrocket
+1544,679,Pet Supplies,Pet Bowl,Max Pet Bowl,True,retailrocket
+1545,803,Garden & Tools,Paint Roller,Premium Paint Roller,True,retailrocket
+1546,1224,Sports & Outdoors,Sleeping Bag,Max Sleeping Bag,True,retailrocket
+1547,1482,Electronics,Camera,Classic Camera 2,True,retailrocket
+1548,653,Electronics,Keyboard,Classic Keyboard 2,True,retailrocket
+1549,140,Fashion,Sneakers,Smart Sneakers 2,True,retailrocket
+1550,1579,Beauty & Health,Shampoo,Premium Shampoo 2,True,retailrocket
+1551,395,Home & Kitchen,Curtains,Vintage Curtains,True,retailrocket
+1552,431,Sports & Outdoors,Jump Rope,Max Jump Rope,True,retailrocket
+1553,140,Fashion,Backpack,Smart Backpack 2,True,retailrocket
+1554,1698,Beauty & Health,Perfume,Premium Perfume 2,True,retailrocket
+1555,1482,Electronics,Monitor,Classic Monitor 2,True,retailrocket
+1556,431,Sports & Outdoors,Yoga Mat,Prime Yoga Mat,True,retailrocket
+1557,1698,Beauty & Health,Hair Dryer,Premium Hair Dryer 2,True,retailrocket
+1558,140,Fashion,Dress,Smart Dress 2,True,retailrocket
+1559,1579,Beauty & Health,Vitamins,Premium Vitamins 2,True,retailrocket
+1560,1532,Pet Supplies,Chew Toy,Max Chew Toy,True,retailrocket
+1561,250,Beauty & Health,Lip Balm,Premium Lip Balm 2,True,retailrocket
+1562,653,Electronics,Tablet,Classic Tablet 2,True,retailrocket
+1563,140,Fashion,Watch,Smart Watch 2,True,retailrocket
+1564,1600,Toys & Games,Remote Car,Essential Remote Car,True,retailrocket
+1565,1600,Toys & Games,Plush Bear,Essential Plush Bear,True,retailrocket
+1566,1224,Sports & Outdoors,Dumbbells,Prime Dumbbells,True,retailrocket
+1567,1482,Electronics,Smartwatch,Classic Smartwatch 2,True,retailrocket
+1568,395,Home & Kitchen,Toaster,Vintage Toaster,True,retailrocket
+1569,791,Home & Kitchen,Blender,Lite Blender,True,retailrocket
+1570,653,Electronics,Headphones,Premium Headphones 2,True,retailrocket
+1572,803,Garden & Tools,Drill,Compact Drill,True,retailrocket
+1573,1600,Toys & Games,Art Set,Essential Art Set,True,retailrocket
+1574,395,Home & Kitchen,Lamp,Lite Lamp,True,retailrocket
+1575,1600,Toys & Games,Card Game,Essential Card Game,True,retailrocket
+1576,1532,Pet Supplies,Pet Carrier,Max Pet Carrier,True,retailrocket
+1577,431,Sports & Outdoors,Tent,Prime Tent,True,retailrocket
+1578,1482,Electronics,Charger,Premium Charger 2,True,retailrocket
+1579,1579,Beauty & Health,Razor,Premium Razor 2,True,retailrocket
+1580,378,Sports & Outdoors,Bicycle Helmet,Prime Bicycle Helmet,True,retailrocket
+1581,1482,Electronics,Speaker,Premium Speaker 2,True,retailrocket
+1582,1698,Beauty & Health,Sunscreen,Premium Sunscreen 2,True,retailrocket
+1583,1579,Beauty & Health,Face Cream,Compact Face Cream 2,True,retailrocket
+1584,653,Electronics,Camera,Premium Camera 2,True,retailrocket
+1585,1224,Sports & Outdoors,Water Bottle,Prime Water Bottle,True,retailrocket
+1586,1482,Electronics,Keyboard,Premium Keyboard 2,True,retailrocket
+1587,679,Pet Supplies,Dog Leash,Prime Dog Leash,True,retailrocket
+1588,140,Fashion,Sunglasses,Smart Sunglasses 2,True,retailrocket
+1589,1482,Electronics,Monitor,Premium Monitor 2,True,retailrocket
+1590,1579,Beauty & Health,Shampoo,Compact Shampoo 2,True,retailrocket
+1591,1579,Beauty & Health,Perfume,Compact Perfume 2,True,retailrocket
+1592,1490,Automotive,Tire Gauge,Portable Tire Gauge,True,retailrocket
+1593,1224,Sports & Outdoors,Running Shoes,Prime Running Shoes,True,retailrocket
+1595,1224,Sports & Outdoors,Sleeping Bag,Prime Sleeping Bag,True,retailrocket
+1596,653,Electronics,Tablet,Premium Tablet 2,True,retailrocket
+1598,140,Fashion,Scarf,Smart Scarf 2,True,retailrocket
+1599,1490,Automotive,Car Vacuum,Portable Car Vacuum,True,retailrocket
+1600,1600,Toys & Games,Puzzle,Select Puzzle,True,retailrocket
+1601,755,Electronics,Smartwatch,Premium Smartwatch 2,True,retailrocket
+1603,1600,Toys & Games,Board Game,Select Board Game,True,retailrocket
+1604,653,Electronics,Headphones,Compact Headphones 2,True,retailrocket
+1605,1482,Electronics,Charger,Compact Charger 2,True,retailrocket
+1606,1600,Toys & Games,Building Blocks,Select Building Blocks,True,retailrocket
+1607,1482,Electronics,Speaker,Compact Speaker 2,True,retailrocket
+1608,1579,Beauty & Health,Hair Dryer,Compact Hair Dryer 2,True,retailrocket
+1609,1579,Beauty & Health,Vitamins,Compact Vitamins 2,True,retailrocket
+1610,653,Electronics,Camera,Compact Camera 2,True,retailrocket
+1611,1224,Sports & Outdoors,Jump Rope,Prime Jump Rope,True,retailrocket
+1612,1600,Toys & Games,Doll,Select Doll,True,retailrocket
+1613,250,Beauty & Health,Lip Balm,Compact Lip Balm 2,True,retailrocket
+1614,803,Garden & Tools,Hammer,Compact Hammer,True,retailrocket
+1615,395,Home & Kitchen,Cookware Set,Lite Cookware Set,True,retailrocket
+1616,140,Fashion,Jeans,Smart Jeans 2,True,retailrocket
+1617,395,Home & Kitchen,Vacuum,Lite Vacuum,True,retailrocket
+1618,1600,Toys & Games,Remote Car,Select Remote Car,True,retailrocket
+1619,1482,Electronics,Keyboard,Compact Keyboard 2,True,retailrocket
+1620,1532,Pet Supplies,Cat Toy,Prime Cat Toy,True,retailrocket
+1621,395,Home & Kitchen,Kettle,Lite Kettle,True,retailrocket
+1622,140,Fashion,Jacket,Eco Jacket 2,True,retailrocket
+1623,1532,Pet Supplies,Pet Bed,Prime Pet Bed,True,retailrocket
+1624,1532,Pet Supplies,Bird Feeder,Prime Bird Feeder,True,retailrocket
+1625,1600,Toys & Games,Plush Bear,Select Plush Bear,True,retailrocket
+1626,140,Fashion,Sneakers,Eco Sneakers 2,True,retailrocket
+1627,140,Fashion,Backpack,Eco Backpack 2,True,retailrocket
+1628,1482,Electronics,Monitor,Compact Monitor 2,True,retailrocket
+1629,250,Beauty & Health,Razor,Compact Razor 2,True,retailrocket
+1630,395,Home & Kitchen,Pillow,Lite Pillow,True,retailrocket
+1631,1600,Toys & Games,Art Set,Select Art Set,True,retailrocket
+1632,1579,Beauty & Health,Sunscreen,Compact Sunscreen 2,True,retailrocket
+1633,653,Electronics,Tablet,Compact Tablet 2,True,retailrocket
+1634,1482,Electronics,Smartwatch,Compact Smartwatch 2,True,retailrocket
+1635,803,Garden & Tools,Garden Hose,Compact Garden Hose,True,retailrocket
+1636,1692,Automotive,Phone Holder,Portable Phone Holder,True,retailrocket
+1637,140,Fashion,Dress,Eco Dress 2,True,retailrocket
+1638,1532,Pet Supplies,Fish Tank Filter,Prime Fish Tank Filter,True,retailrocket
+1639,140,Fashion,Watch,Eco Watch 2,True,retailrocket
+1640,653,Electronics,Headphones,Deluxe Headphones 2,True,retailrocket
+1641,378,Sports & Outdoors,Yoga Mat,Essential Yoga Mat,True,retailrocket
+1642,140,Fashion,Sunglasses,Eco Sunglasses 2,True,retailrocket
+1643,140,Fashion,Scarf,Eco Scarf 2,True,retailrocket
+1644,431,Sports & Outdoors,Dumbbells,Essential Dumbbells,True,retailrocket
+1645,140,Fashion,Jeans,Eco Jeans 2,True,retailrocket
+1646,1224,Sports & Outdoors,Tent,Essential Tent,True,retailrocket
+1647,1532,Pet Supplies,Pet Bowl,Prime Pet Bowl,True,retailrocket
+1648,1490,Automotive,Wax Kit,Portable Wax Kit,True,retailrocket
+1649,653,Electronics,Charger,Deluxe Charger 2,True,retailrocket
+1650,1482,Electronics,Speaker,Deluxe Speaker 2,True,retailrocket
+1651,1579,Beauty & Health,Face Cream,Deluxe Face Cream 2,True,retailrocket
+1652,140,Fashion,Jacket,Portable Jacket 2,True,retailrocket
+1653,1490,Automotive,Car Charger,Pro Car Charger,True,retailrocket
+1654,378,Sports & Outdoors,Bicycle Helmet,Essential Bicycle Helmet,True,retailrocket
+1655,378,Sports & Outdoors,Water Bottle,Essential Water Bottle,True,retailrocket
+1656,1579,Beauty & Health,Shampoo,Deluxe Shampoo 2,True,retailrocket
+1657,1579,Beauty & Health,Perfume,Deluxe Perfume 2,True,retailrocket
+1658,1394,Books & Media,Cookbook,Deluxe Cookbook,True,retailrocket
+1659,140,Fashion,Sneakers,Portable Sneakers 2,True,retailrocket
+1660,395,Home & Kitchen,Curtains,Lite Curtains,True,retailrocket
+1661,1692,Automotive,Seat Cover,Pro Seat Cover,True,retailrocket
+1662,679,Pet Supplies,Chew Toy,Prime Chew Toy,True,retailrocket
+1663,1482,Electronics,Camera,Deluxe Camera 2,True,retailrocket
+1664,395,Home & Kitchen,Toaster,Lite Toaster,True,retailrocket
+1665,653,Electronics,Keyboard,Deluxe Keyboard 2,True,retailrocket
+1666,1600,Toys & Games,Card Game,Select Card Game,True,retailrocket
+1667,140,Fashion,Backpack,Portable Backpack 2,True,retailrocket
+1668,1490,Automotive,Floor Mats,Pro Floor Mats,True,retailrocket
+1669,250,Beauty & Health,Hair Dryer,Deluxe Hair Dryer 2,True,retailrocket
+1670,140,Fashion,Dress,Portable Dress 2,True,retailrocket
+1671,1452,Toys & Games,Puzzle,Active Puzzle,True,retailrocket
+1672,653,Electronics,Monitor,Deluxe Monitor 2,True,retailrocket
+1673,1224,Sports & Outdoors,Running Shoes,Essential Running Shoes,True,retailrocket
+1674,250,Beauty & Health,Vitamins,Deluxe Vitamins 2,True,retailrocket
+1675,1579,Beauty & Health,Lip Balm,Deluxe Lip Balm 2,True,retailrocket
+1676,1600,Toys & Games,Board Game,Active Board Game,True,retailrocket
+1677,1600,Toys & Games,Building Blocks,Active Building Blocks,True,retailrocket
+1678,1698,Beauty & Health,Razor,Deluxe Razor 2,True,retailrocket
+1679,395,Home & Kitchen,Blender,Max Blender,True,retailrocket
+1680,791,Home & Kitchen,Lamp,Max Lamp,True,retailrocket
+1681,140,Fashion,Watch,Portable Watch 2,True,retailrocket
+1682,395,Home & Kitchen,Cookware Set,Max Cookware Set,True,retailrocket
+1683,1579,Beauty & Health,Sunscreen,Deluxe Sunscreen 2,True,retailrocket
+1684,1600,Toys & Games,Doll,Active Doll,True,retailrocket
+1685,1600,Toys & Games,Remote Car,Active Remote Car,True,retailrocket
+1686,140,Fashion,Sunglasses,Portable Sunglasses 2,True,retailrocket
+1687,250,Beauty & Health,Face Cream,Smart Face Cream 2,True,retailrocket
+1688,140,Fashion,Scarf,Portable Scarf 2,True,retailrocket
+1689,1579,Beauty & Health,Shampoo,Smart Shampoo 2,True,retailrocket
+1690,1482,Electronics,Tablet,Deluxe Tablet 2,True,retailrocket
+1691,1579,Beauty & Health,Perfume,Smart Perfume 2,True,retailrocket
+1692,1692,Automotive,Dash Camera,Pro Dash Camera,True,retailrocket
+1693,395,Home & Kitchen,Vacuum,Max Vacuum,True,retailrocket
+1694,395,Home & Kitchen,Kettle,Max Kettle,True,retailrocket
+1695,250,Beauty & Health,Hair Dryer,Smart Hair Dryer 2,True,retailrocket
+1696,378,Sports & Outdoors,Sleeping Bag,Essential Sleeping Bag,True,retailrocket
+1697,1482,Electronics,Smartwatch,Deluxe Smartwatch 2,True,retailrocket
+1698,1698,Beauty & Health,Vitamins,Smart Vitamins 2,True,retailrocket

@@ -1,0 +1,34 @@
+# Local databases and backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+
+# MLflow artifacts and tracking
+mlruns/
+models/mlruns/
+
+# Model binaries - keep locally
+*.joblib
+*.pkl
+*.pickle
+*.skops
+*.pt
+*.pth
+*.keras
+*.h5
+
+# Generated notebook outputs
+.ipynb_checkpoints/
+# Local environment secrets
+/.env
+.env
+
+.venv_compat/
+
+frontend/NUL.css
+
+__pycache__/
+
+*.py[cod]

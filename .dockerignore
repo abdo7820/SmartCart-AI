@@ -1,0 +1,7 @@
+.git
+data/db/*.db
+data/raw
+frontend/node_modules
+frontend/dist
+tests
+__pycache__

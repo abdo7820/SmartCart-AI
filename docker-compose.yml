@@ -1,0 +1,77 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: smartcart
+      POSTGRES_PASSWORD: smartcart
+      POSTGRES_DB: smartcart
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartcart -d smartcart"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  loader:
+    build: .
+    profiles: ["init"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://smartcart:smartcart@db:5432/smartcart
+    volumes:
+      - ./data/db:/data:ro
+    command: python scripts/sqlite_to_postgres.py --sqlite /data/ecommerce.db --url postgresql://smartcart:smartcart@db:5432/smartcart
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://smartcart:smartcart@db:5432/smartcart
+      APP_DATABASE_URL: postgresql://smartcart:smartcart@db:5432/smartcart
+      CORS_ORIGINS: http://localhost:3000,http://127.0.0.1:3000
+      COOKIE_SECURE: "false"
+      LLM_PROVIDER: ${LLM_PROVIDER:-none}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+    ports:
+      - "8000:8000"
+
+  admin:
+    build: .
+    profiles: ["init"]
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      APP_DATABASE_URL: postgresql://smartcart:smartcart@db:5432/smartcart
+      DATABASE_URL: postgresql://smartcart:smartcart@db:5432/smartcart
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?set ADMIN_PASSWORD}
+    command: python scripts/create_admin.py --email ${ADMIN_EMAIL:?set ADMIN_EMAIL} --name Administrator
+
+  web:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    depends_on:
+      - api
+    ports:
+      - "3000:80"
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v3.17.2
+    command: mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:////mlflow/mlflow.db
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./models:/mlflow
+
+volumes:
+  pgdata:

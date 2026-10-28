@@ -1,0 +1,217 @@
+{
+  "purchase": {
+    "features": [
+      "q_sess_items",
+      "q_sess_carts",
+      "q_hist_events",
+      "q_hist_items",
+      "q_hist_buys",
+      "q_days_since_prev",
+      "q_hour",
+      "q_dow",
+      "warm",
+      "i_views",
+      "i_carts",
+      "i_buys",
+      "i_users",
+      "i_days_since_last",
+      "i_buy_rate",
+      "i_cart_rate",
+      "i_age_days",
+      "i_pop_7d",
+      "i_pop_30d",
+      "i_trend",
+      "i_new",
+      "i_cat_share",
+      "p_views",
+      "p_carts",
+      "p_sess_events",
+      "p_decay",
+      "p_days_since_last",
+      "p_cat_share",
+      "p_same_cat_as_last",
+      "rr_ctx",
+      "rr_cf",
+      "rr_pop",
+      "rr_catpop",
+      "score_ctx",
+      "score_cf",
+      "score_catpop",
+      "n_sources",
+      "rrf"
+    ],
+    "model_names": [
+      "Logistic Regression",
+      "Random Forest",
+      "XGBoost Ranker",
+      "LightGBM Ranker",
+      "HistGradientBoosting"
+    ],
+    "params": {
+      "Logistic Regression": {
+        "C": 0.01
+      },
+      "Random Forest": {
+        "max_depth": 10,
+        "min_samples_leaf": 20
+      },
+      "XGBoost Ranker": {
+        "max_depth": 3,
+        "n_estimators": 400
+      },
+      "LightGBM Ranker": {
+        "n_estimators": 200,
+        "num_leaves": 15
+      },
+      "HistGradientBoosting": {
+        "max_depth": 3,
+        "max_iter": 300
+      }
+    },
+    "ranker_validation_scores": {
+      "Logistic Regression": 0.6818835544365917,
+      "Random Forest": 0.6875703306287144,
+      "XGBoost Ranker": 0.6865013167514706,
+      "LightGBM Ranker": 0.6891257553892443,
+      "HistGradientBoosting": 0.6863410521767889
+    },
+    "ranked_models": [
+      "LightGBM Ranker",
+      "Random Forest",
+      "XGBoost Ranker",
+      "HistGradientBoosting",
+      "Logistic Regression"
+    ],
+    "ensembles": {
+      "Ensemble (top 3)": [
+        "LightGBM Ranker",
+        "Random Forest",
+        "XGBoost Ranker"
+      ],
+      "Ensemble (all 5)": [
+        "LightGBM Ranker",
+        "Random Forest",
+        "XGBoost Ranker",
+        "HistGradientBoosting",
+        "Logistic Regression"
+      ]
+    },
+    "final_model": "LightGBM Ranker",
+    "explain_model": "LightGBM Ranker",
+    "hybrid_weights": {
+      "ctx": 3.0,
+      "cf": 1.0,
+      "pop": 0.5,
+      "catpop": 0.0
+    },
+    "candidate_sources": [
+      "ctx",
+      "cf",
+      "pop",
+      "catpop"
+    ]
+  },
+  "discovery": {
+    "features": [
+      "q_sess_items",
+      "q_sess_carts",
+      "q_hist_events",
+      "q_hist_items",
+      "q_hist_buys",
+      "q_days_since_prev",
+      "q_hour",
+      "q_dow",
+      "warm",
+      "i_views",
+      "i_carts",
+      "i_buys",
+      "i_users",
+      "i_days_since_last",
+      "i_buy_rate",
+      "i_cart_rate",
+      "i_age_days",
+      "i_pop_7d",
+      "i_pop_30d",
+      "i_trend",
+      "i_new",
+      "i_cat_share",
+      "p_cat_share",
+      "p_same_cat_as_last",
+      "rr_cf",
+      "rr_pop",
+      "rr_catpop",
+      "score_cf",
+      "score_catpop",
+      "n_sources",
+      "rrf"
+    ],
+    "model_names": [
+      "Logistic Regression",
+      "Random Forest",
+      "XGBoost Ranker",
+      "LightGBM Ranker",
+      "HistGradientBoosting"
+    ],
+    "params": {
+      "Logistic Regression": {
+        "C": 0.01
+      },
+      "Random Forest": {
+        "max_depth": 6,
+        "min_samples_leaf": 50
+      },
+      "XGBoost Ranker": {
+        "max_depth": 3,
+        "n_estimators": 200
+      },
+      "LightGBM Ranker": {
+        "n_estimators": 200,
+        "num_leaves": 31
+      },
+      "HistGradientBoosting": {
+        "max_depth": 3,
+        "max_iter": 300
+      }
+    },
+    "ranker_validation_scores": {
+      "Logistic Regression": 0.06102292754403934,
+      "Random Forest": 0.042319934888031166,
+      "XGBoost Ranker": 0.06062114115428727,
+      "LightGBM Ranker": 0.05587886443193256,
+      "HistGradientBoosting": 0.049377190185126665
+    },
+    "ranked_models": [
+      "Logistic Regression",
+      "XGBoost Ranker",
+      "LightGBM Ranker",
+      "HistGradientBoosting",
+      "Random Forest"
+    ],
+    "ensembles": {
+      "Ensemble (top 3)": [
+        "Logistic Regression",
+        "XGBoost Ranker",
+        "LightGBM Ranker"
+      ],
+      "Ensemble (all 5)": [
+        "Logistic Regression",
+        "XGBoost Ranker",
+        "LightGBM Ranker",
+        "HistGradientBoosting",
+        "Random Forest"
+      ]
+    },
+    "final_model": "Logistic Regression",
+    "explain_model": "Logistic Regression",
+    "hybrid_weights": {
+      "cf": 2.0,
+      "pop": 1.0,
+      "catpop": 0.0
+    },
+    "candidate_sources": [
+      "cf",
+      "pop",
+      "catpop"
+    ]
+  }
+}

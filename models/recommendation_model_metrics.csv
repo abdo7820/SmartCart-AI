@@ -1,0 +1,11 @@
+task,model,validation_ndcg_at_10,test_ndcg_at_10,params
+purchase,Logistic Regression,0.6818835544365917,0.6752645609136104,"{""C"": 0.01}"
+purchase,Random Forest,0.6875703306287144,0.6773075425251545,"{""max_depth"": 10, ""min_samples_leaf"": 20}"
+purchase,XGBoost Ranker,0.6865013167514706,0.6777622220767666,"{""max_depth"": 3, ""n_estimators"": 400}"
+purchase,LightGBM Ranker,0.6891257553892443,0.6746739986464111,"{""n_estimators"": 200, ""num_leaves"": 15}"
+purchase,HistGradientBoosting,0.6863410521767889,0.6754476939531289,"{""max_depth"": 3, ""max_iter"": 300}"
+discovery,Logistic Regression,0.06102292754403934,0.04260057423105323,"{""C"": 0.01}"
+discovery,Random Forest,0.042319934888031166,0.033560468518212185,"{""max_depth"": 6, ""min_samples_leaf"": 50}"
+discovery,XGBoost Ranker,0.06062114115428727,0.03788874385299963,"{""max_depth"": 3, ""n_estimators"": 200}"
+discovery,LightGBM Ranker,0.05587886443193256,0.031481338192518575,"{""n_estimators"": 200, ""num_leaves"": 31}"
+discovery,HistGradientBoosting,0.049377190185126665,0.03553593103001128,"{""max_depth"": 3, ""max_iter"": 300}"
